@@ -1,16 +1,15 @@
-# About
 
-Tailpages (Tailwind + Github Pages) is a Jekyll website template based on TailwindCSS, which can be hosted by Github for free. You can visit the demo site at [https://harrywang.me/](https://harrywang.me/).
+# Jekyll Tailpages Blog-Portfolio
 
-Key features are:
+This repository is used my serve the personal blog-portfolio website.
 
-- Minimalist design inspired by the [indigo template](https://github.com/sergiokopplin/indigo)
-- Elegant typography via [TailwindCSS Typography plugin](https://tailwindcss.com/docs/typography-plugin) and [Inter font](https://rsms.me/inter/)
-- Markdown support for content authoring (static pages and blogs)
-- Code highlighting and styling via [highlight.js](https://highlightjs.org/) (see [code example](https://harrywang.me/2022/01/18/tailpages-tutorial-technical.html))
-- Latex support via [MathJax](https://www.mathjax.org/) (see an [example](http://harrywang.me/2022/02/09/latex-cheatsheet.html))
-- Table of Contents support via [jekyll-toc](https://github.com/allejo/jekyll-toc) (see an [example](http://harrywang.me/2022/02/08/python-cheatsheet.html))
+You may visit my blogfolio [here](iokarkan.github.io).
 
-### Tutorials
-- No-code Tutorial: this tutorial shows how you can use Tailpages template to quickly setup your website and blogs without coding, which you can access at [medium](https://harrywang.medium.com/introducing-tailpages-tailwind-github-pages-89903c52d3ec) or [blog](https://harrywang.me/tailpages-tutorial-nocode).
-- Technical Tutorial: this tutorial shows how to setup the development environment for Tailpages from scratch, which you can access at [medium](https://harrywang.medium.com/developing-tailpages-a-jekyll-template-based-on-tailwind-css-b8b51e60e25b) or [blog](https://harrywang.me/tailpages-tutorial-technical). 
+# Source
+
+This repo is a fork of [Harry Wang's Tailpages Jekyll template](https://harrywang.github.io/tailpages) (see also the author's [Medium tutorial](https://harrywang.medium.com/introducing-tailpages-tailwind-github-pages-89903c52d3ec)).
+
+### Run locally
+Build inside the folder with: `bundle install` (optionally check webrick with `bundle add webrick`).
+
+Serve the website locally with: `bundle exec jekyll serve`.
