@@ -20,8 +20,9 @@ show-nav-menu: true
 nav-menu:
 - text: About me
   permalink: about
-- text: My work
-  permalink: portfolio
+  # Add work when ready!
+# - text: My work
+#   permalink: portfolio
 - text: My blog
   permalink: blog
 
@@ -40,7 +41,7 @@ footer-msg: "Hosted by Github (Credits to H. Wang)"
 footer-msg-link: https://github.com/iokarkan/blogfolio
 
 # google analytics
-google-analytics: G-WCRC1TC2V5
+# google-analytics: G-WCRC1TC2V5
 
 # jekyll plugins - no need to change
 plugins:
