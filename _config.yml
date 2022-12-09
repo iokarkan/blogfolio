@@ -1,43 +1,43 @@
 # change the followings to match your Github username and repo name
-baseurl: "/tailpages" # the name of your github repo
-url: "https://harrywang.github.io" # the url of your github pages
+baseurl: "/blogfolio" # the name of your github repo
+url: "https://iokarkan.github.io" # the url of your github pages
 
 # site information used in page title, meta data etc.
-title: "Tailpages: Tailwind + Github Pages"
-description: A Github Pages (Jekyll) template based on TailwindCSS
+title: "iokarkan's Blogfolio"
+description: Blog-Portfolio | Github Pages-Jekyll-TailwindCSS
 
 # color theme for links
 theme-color: indigo # indigo|yellow|pink|green|stone|
 
 # homepage information
-author: Satoshi Nakamoto
-author-bio: Creator of Bitcoin  # change to false to hide
-author-image: 279.png  # file must be in the /assets/img/ folder
+author: Ioannis Karkanias
+author-bio: Machine Learning Researcher, Physics PhD  # change to false to hide
+author-image: iokarkan.jpg  # file must be in the /assets/img/ folder
 
 # navigation menu
 show-nav-menu: true
 
 nav-menu:
-- text: About
+- text: About me
   permalink: about
-- text: Bitcoin
-  permalink: bitcoin
-- text: Blog
+- text: My work
+  permalink: portfolio
+- text: My blog
   permalink: blog
 
 # use false to turn off any social media links
-twitter: https://twitter.com/
-facebook: https://facebook.com/
-instagram: https://instagram.com/
-github: https://github.com/
-linkedin: https://linkedin.com/
+twitter: false
+facebook: false
+instagram: false
+github: false
+linkedin: https://www.linkedin.com/in/ioannis-karkanias-71996a1aa/
 medium: false
 google-scholar: false
-email: false
+email: mailto:ioannis.karkanias@gmail.com
 
 # footer information
-footer-msg: "Powered by Tailpages"
-footer-msg-link: https://github.com/harrywang/tailpages
+footer-msg: "Hosted by Github (Credits to H. Wang)"
+footer-msg-link: https://github.com/iokarkan/blogfolio
 
 # google analytics
 google-analytics: G-WCRC1TC2V5
