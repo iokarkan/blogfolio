@@ -4,11 +4,16 @@ title: About me
 permalink: about
 ---
 
-### Hi 👋! Welcome to my personal internet corner!
+<div style="display: grid; grid-template-columns: 1fr 0.5fr; column-gap: 25px;
+">
+<div style="margin:auto;"><p>My name is Ioannis (John) Karkanias, a physicist with a passion for Machine Learning and computational statistics.<br/><br/>You can see my CV <a href="{{site.baseurl}}/assets/pdf/CV_IoannisKarkanias.pdf">here</a>! <br/><br/>My current interests revolve around Python and Machine Learning.</p></div>
 
-<img class="mx-auto w-1/2 rounded-full" src="{{site.baseurl}}/assets/img/pop-art.jpg">
+<div style="margin: auto;"><img class="rounded-full" src="{{site.baseurl}}/assets/img/pop-art.jpg"></div>
 
-My name is Ioannis (John) Karkanias, a **Physics PhD** with a passion for **Machine Learning** and computational **statistics**. I list some details on my background below, but my current interests revolve around Python and Machine Learning.
+
+</div>
+
+
 
 <!-- TODO: Education and work summary -->
 
