@@ -20,7 +20,7 @@ observation of a purely electroweak signal and set experimental limits for New P
 of the Standard Model Lagrangian of Particle Physics.
 
 <div class="">
-    <div class="m-auto w-3/4 text-center"><img class="m-auto" src="{{site.baseurl}}/assets/img/PhD-nll.png"
+    <div class="m-auto w-1/2 text-center"><img class="m-auto" src="{{site.baseurl}}/assets/img/PhD-nll.png"
             alt="Likelihood-ratio for the observation of the purely electroweak $W^{\pm}Z$ signal">
         <figcaption style="align: center;"><b>Likelihood-ratio for the observation of the purely electroweak $W^{\pm}Z$
                 signal</b></figcaption>
@@ -34,7 +34,7 @@ far more constrained in the latter case. Limits on the New Physics (EFT) model p
 profile-likelihood ratio test statistic at a 68% and 95% C.L., being close to $$0$$ as no significant deviations in
 terms of previously unobserved interactions have been found.
 
-<div class="grid grid-cols-2 gap-10">
+<div class="mx-5 grid grid-cols-2 gap-10">
     <div class="m-auto text-center"><img src="{{site.baseurl}}/assets/img/PhD-c_scan_M1M0.png"
             alt="Two-dimensional contour plot with limits on EFT model parameters">
         <figcaption style="align: center;"><b>Two-dimensional contour plot with limits on EFT model parameters</b>

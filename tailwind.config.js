@@ -10,6 +10,7 @@ module.exports = {
       typography: {
         DEFAULT: {
           css: {
+            maxWidth: '75ch', // add required value here
             pre: {
               padding: "0",
               color: "#1F2933",

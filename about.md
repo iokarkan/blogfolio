@@ -4,7 +4,7 @@ title: About me
 permalink: about
 ---
 
-<div class="md:grid md:grid-cols-2 md:gap-6">
+<div class="md:grid md:grid-cols-2 md:gap-3">
 
     <div class="m-auto">
         <p>My name is Ioannis (John) Karkanias, a physicist with a passion for Machine Learning and computational
