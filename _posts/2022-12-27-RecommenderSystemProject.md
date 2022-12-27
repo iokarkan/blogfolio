@@ -49,7 +49,7 @@ However, it is quite chaotic to try and make sense of a lot of different metrics
 different sets of values. Normally, one can constrain themselves to having a simple YES/NO metric (the thumbs-up or down
 works!). 
 
-Regarding collaborative filtering, the wikipedia page for [collaborative filtering](https://en.wikipedia.org/wiki/Collaborative_filtering) has a
+Regarding collaborative filtering, the [wikipedia](https://en.wikipedia.org/wiki/Collaborative_filtering) page has a
 fantastic gif that I just have to steal:
 
 <div class="md:grid md:grid-cols-2">
