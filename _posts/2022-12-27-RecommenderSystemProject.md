@@ -149,7 +149,7 @@ We have just loaded an `<class 'surprise.dataset.DatasetAutoFolds'>` object. If 
 
   It seems to all boil down to applying an estimation for the rating to put in the Ratings Matrix for a user-item pair. An intuitive way seems to construct the recommendation based on item-item similarity, meaning that we believe that, for example, a user will give a similar rating to two similar items. The formula for the prediction can be drafted to interpolate between the available ratings given by the user, and create a value for a new item (adapted from Yehuda Koren's work - see below):
 
-  $$ \hat{r}_{ui} = \sum_{j \in S} w^u_{ij}r_{uj} $$
+  $$ \hat{r}_{ui} = \sum_{j \in S} w_{ij}r_{uj} $$
 
   where:
 
@@ -163,7 +163,7 @@ Out of all items, though, we want to predict $\hat{r}_{ui}$ using those items th
 
 In the end, we can give the prediction $\hat{r}_{ui}$ as a weighted average of the user's ratings of the similar items, also introducing bias terms:
 
-$$ \hat{r}_{ui} =  b_{ui} + \frac{\sum_{j \in S} \rho^u_{ij} \left(r_{uj} - b_{uj}\right)}{\sum_{j \in S} \rho^u_{ij}} $$
+$$ \hat{r}_{ui} =  b_{ui} + \frac{\sum_{j \in S} \rho_{ij} \left(r_{uj} - b_{uj}\right)}{\sum_{j \in S} \rho_{ij}} $$
 
 The bias parameter introduced is $b_{ui} = \mu + b_u + b_i$, characterizing our available dataset of user-items, by combining the average rating, the bias in the ratings given by a user $u$ (i.e. $b_{u}$) and the bias of a specific item $i$ (i.e. $b_{i}$). These can be computed by a simultaneous least squares fit from the available dataset.
 
