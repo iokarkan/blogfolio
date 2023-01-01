@@ -175,7 +175,7 @@ with $n_{ij}$ equal to the number of users who rated both $i$ and $j$ items.
 
 ### Implementation with `surprise`
 
-  So how does `suprise` perform its job? In true scikit nature, it has built-in classes and methods to seamlessly handle
+  So how does `surprise` perform its job? In true scikit nature, it has built-in classes and methods to seamlessly handle
   the computation of correlations between the users and items needed for the application of collaborative filtering, providing the familiar `predict`, `fit` and `test` methods, as well as `train_test_split`!
   
   After a brief (and, admittedly, sparse) mathematical modeling, it is encouraging to see how effortless it is to put together all that we have considered, and we can try to evaluate the performance of our modeling, consisting of:
@@ -186,7 +186,7 @@ with $n_{ij}$ equal to the number of users who rated both $i$ and $j$ items.
 
 by computing the root mean squared error (RMSE) of the predicted ratings on a test set.
 
-Using the `suprise` well-written docs, a sample code for the above can be constructed:
+Using the `surprise` well-written docs, a sample code for the above can be constructed:
 
 ```Python
 # imports
