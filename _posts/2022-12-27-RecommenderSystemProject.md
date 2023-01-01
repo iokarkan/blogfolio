@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Suprisingly intuitive recommender systems"
+title: "Surprisingly intuitive recommender systems"
 tags: machine learning recommender surprise
 ---
 
