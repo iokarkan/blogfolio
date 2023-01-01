@@ -3,7 +3,7 @@
 
 This repository is used my serve the personal blog-portfolio website.
 
-You may visit my blogfolio [here](iokarkan.github.io).
+You may visit my blogfolio at [iokarkan.github.io](iokarkan.github.io).
 
 # Source
 
