@@ -1,0 +1,18 @@
+{"questions":[
+{"Q":"“A ____ is someone who is better at statistics than any software engineer, and better at software engineering than any statistician.”","A":{"1a":"Data Scientist","1b": "Data Engineer"},"correct":"1a","comment":""},
+
+{"Q":"“That is why it’s so important that ____ learn how to excavate insights which can be acted upon, presentable in both visually compelling and digestible formats.”","A":{"2a":"Data Analysts","2b":"Data Scientists"},"correct":"2a","comment":""},
+
+{"Q":"“The author mentions ____ as individuals who leverage big data frameworks.”","A":{"3a":"Data Scientists","3b":"ML Engineer"},"correct":"3b","comment":""},
+
+{"Q":"“It’s not uncommon to find ____ with only limited programming knowledge. After all, querying a SQL Database , making some visualizations using Python/R are often all the tasks they are ever expected to do.”","A":{"4a":"ML Engineers","4b":"Data Scientists"},"correct":"4b","comment":""},
+
+{"Q":"“____’ most basic, universal skill is the ability to write code. This may be less true in five years’ time, when many more people will have the title '____' on their business cards.”","A":{"5a":"Data Analyst(s)","5b":"Data Scientist(s)","5c": "Data Engineer(s)"},"correct":"5b","comment":""},
+
+{"Q":"“As the article suggests, you have less reasons to be a good coder today as a ____.”","A":{"6a":"Data Engineer","6b":"ML Engineer","6c":"Data Scientist"},"correct":"6c","comment":""},
+
+{"Q":"“____: Do you want to analyze big data, design experimentation and A/B test, build simple machine learning and statistical models (e.g. using sklearn) to drive business strategy?”","A":{"7a":"Data Scientist","7b":"ML Engineer"},"correct":"7a","comment":""},
+{"Q":"____ have to deal with Big Data where they engage in numerous operations like data cleaning, management, transformation, data deduplication, etc.”","A":{"8a":"Data Analysts","8b":"Data Engineers"},"correct":"8b","comment":""},
+{"Q":"“Machine learning engineers feed data into models defined by ____.”","A":{"9a":"Data Engineers","9b":"Data Scientists"},"correct":"9b","comment":""},
+{"Q":"“____ analyze, test, aggregate, optimize the data and present it for the company.”","A":{"10a":"Data Scientists","10b":"Data Analysts"},"correct":"10a","comment":""}
+  ]}
