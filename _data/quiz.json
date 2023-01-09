@@ -12,7 +12,7 @@
 {"Q":"“As the article suggests, you have less reasons to be a good coder today as a ____.”","A":{"6a":"Data Engineer","6b":"ML Engineer","6c":"Data Scientist"},"correct":"6c","comment":""},
 
 {"Q":"“____: Do you want to analyze big data, design experimentation and A/B test, build simple machine learning and statistical models (e.g. using sklearn) to drive business strategy?”","A":{"7a":"Data Scientist","7b":"ML Engineer"},"correct":"7a","comment":""},
-{"Q":"____ have to deal with Big Data where they engage in numerous operations like data cleaning, management, transformation, data deduplication, etc.”","A":{"8a":"Data Analysts","8b":"Data Engineers"},"correct":"8b","comment":""},
+{"Q":"“____ have to deal with Big Data where they engage in numerous operations like data cleaning, management, transformation, data deduplication, etc.”","A":{"8a":"Data Analysts","8b":"Data Engineers"},"correct":"8b","comment":""},
 {"Q":"“Machine learning engineers feed data into models defined by ____.”","A":{"9a":"Data Engineers","9b":"Data Scientists"},"correct":"9b","comment":""},
 {"Q":"“____ analyze, test, aggregate, optimize the data and present it for the company.”","A":{"10a":"Data Scientists","10b":"Data Analysts"},"correct":"10a","comment":""}
   ]}
