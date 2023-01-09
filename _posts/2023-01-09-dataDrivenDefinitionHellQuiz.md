@@ -72,7 +72,7 @@ search results regarding the most common descriptions of:
     <p class="pt-4 pb-4 px-4 text-sm text-slate-600 font-mono">
         If you're interested in the modular custom quiz functionality implemented here with Javascript, Tailwind and Jekyll, have a
         look at the
-        <a href="">source</a>
+        <a href="https://github.com/iokarkan/iokarkan.github.io/blob/main/_layouts/quiz.html">source</a>
         for this post on Github!
     </p>
 </div>
