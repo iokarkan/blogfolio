@@ -74,7 +74,7 @@ search results regarding the most common descriptions of:
         look at the source code for the 
         <a href="https://github.com/iokarkan/iokarkan.github.io/blob/main/_layouts/quiz.html">layout</a>
         and 
-        <a href="https://github.com/iokarkan/iokarkan.github.io/blob/main/_layouts/quiz.html">post</a>
+        <a href="https://github.com/iokarkan/iokarkan.github.io/blob/main/_posts/2023-01-09-dataDrivenDefinitionHellQuiz.md">post</a>
         for this post on Github!
     </p>
 </div>
