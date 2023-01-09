@@ -38,7 +38,7 @@ search results regarding the most common descriptions of:
     <img class="m-auto rounded-2xl" src="{{site.baseurl}}/assets/gif/testYourMight.gif">
 </div> -->
 
-<div id="quiz-div" class='not-prose pt-5 sm:grid sm:grid-cols-2 sm:gap-x-5 sm:gap-y-8 p-2 border-double border-2 border-indigo-200'>
+<div id="quiz-div" class='not-prose pt-5 gap-y-5 grid sm:grid-cols-2 sm:gap-x-5 sm:gap-y-8 p-2 border-double border-2 border-indigo-200'>
     {% for entry in site.data.quiz.questions %}
     <div>
         <p class="font-semibold">🔎 {{ entry.Q }}</p>
