@@ -21,7 +21,7 @@ found online!
 
 ## Test your might!
 
-Select a ☐ to see how well you can anticipate the statements documented in top [Medium](https://www.medium.com) and [Towards
+Select a box to see how well you can anticipate the statements documented in top [Medium](https://www.medium.com) and [Towards
 Data Science](https://towardsdatascience.com) member stories
 search results regarding the most common descriptions of:
 
