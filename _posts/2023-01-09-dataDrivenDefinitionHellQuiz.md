@@ -51,12 +51,12 @@ search results regarding the most common descriptions of:
             </li>
             {% endfor %}
             <div class="" id="div{{ entry.correct }}">
-                <div class="hidden text-xs bg-green-100 rounded-full sm:mx-6 m-auto w-auto mt-4 px-6 py-4"
+                <div class="hidden text-xs bg-green-100 rounded-full m-auto w-fit mt-4 px-6 py-4"
                     id="correct{{ entry.correct }}">
                     <p class="text-center text-lg font-mono font-bold">Correct!</p>
                     <!-- <p class="">{{ entry.comment }}</p> -->
                 </div>
-                <div class="hidden text-xs bg-red-100 rounded-full sm:mx-6 m-auto w-auto mt-4 px-6 py-4"
+                <div class="hidden text-xs bg-red-100 rounded-full m-auto w-fit mt-4 px-6 py-4"
                     id="false{{ entry.correct }}">
                     <p class="text-center text-lg font-mono font-bold">Wrong!</p>
                     <!-- <p class="">{{ entry.comment }}</p> -->
