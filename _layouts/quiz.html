@@ -37,6 +37,8 @@ layout: default
       }
       else {
         button.classList.add("bg-red-300")
+        // in case of wrong, you want to mark the correct one as green
+        button.parentElement.parentElement.querySelector("[id='"+button.parentElement.parentElement.id+"']").classList.add("bg-green-300")
         button.parentElement.parentElement.querySelector("[id='false" + button.parentElement.parentElement.id + "']").classList.remove("hidden")
         button.removeEventListener("click", clicked)
         button.parentElement.parentElement.classList.add("pointer-events-none")
