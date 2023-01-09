@@ -2,18 +2,18 @@
 layout: default
 ---
 {% if site.show-nav-menu %}
-  {% include nav.html%}
+{% include nav.html%}
 {% endif %}
 
 <div class="mx-auto px-4 pt-4 prose prose-{{site.theme-color}}">
   <h1 class="text-center mt-6 mb-6">{{ page.title }}</h1>
   <div class="text-center">
     {% if page.tags.size !=0 %}
-      <i class="text-xs fas fa-tags"></i>
+    <i class="text-xs fas fa-tags"></i>
     {% for tag in page.tags %}
-      <div class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-indigo-100 text-indigo-800">
-        <a class="!no-underline" href="{{site.baseurl}}/tag#{{ tag }}">{{ tag }}</a>
-      </div>
+    <div class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-indigo-100 text-indigo-800">
+      <a class="!no-underline" href="{{site.baseurl}}/tag#{{ tag }}">{{ tag }}</a>
+    </div>
     {% endfor %}
     {% endif %}
   </div>
@@ -21,8 +21,8 @@ layout: default
 </div>
 
 <script>
-    // Quiz-like functionality
-    var quiz = document.getElementById("quiz-div")
+  // Quiz-like functionality
+  var quiz = document.getElementById("quiz-div")
   // --- loop over all buttons in the quiz
   // --- set a listener for when the button's id equals the question's correct value
   for (let button of quiz.querySelectorAll("button")) {
@@ -30,15 +30,15 @@ layout: default
     // console.log(button.parentElement.parentElement.id)
     button.addEventListener("click", function clicked() {
       if (button.id === button.parentElement.parentElement.id) {
-          button.classList.add("bg-green-300")
-          button.parentElement.parentElement.querySelector("[id='correct" + button.parentElement.parentElement.id + "']").classList.remove("hidden")
-          button.removeEventListener("click", clicked)
-          button.parentElement.parentElement.classList.add("pointer-events-none")
+        button.classList.add("bg-green-300")
+        button.parentElement.parentElement.querySelector("[id='correct" + button.parentElement.parentElement.id + "']").classList.remove("hidden")
+        button.removeEventListener("click", clicked)
+        button.parentElement.parentElement.classList.add("pointer-events-none")
       }
       else {
         button.classList.add("bg-red-300")
         // in case of wrong, you want to mark the correct one as green
-        button.parentElement.parentElement.querySelector("[id='"+button.parentElement.parentElement.id+"']").classList.add("bg-green-300")
+        button.parentElement.parentElement.querySelector("[id='" + button.parentElement.parentElement.id + "']").classList.add("bg-green-300")
         button.parentElement.parentElement.querySelector("[id='false" + button.parentElement.parentElement.id + "']").classList.remove("hidden")
         button.removeEventListener("click", clicked)
         button.parentElement.parentElement.classList.add("pointer-events-none")
