@@ -15,7 +15,7 @@ permalink: about
                         href="{{site.baseurl}}/assets/pdf/CV_IoannisKarkanias.pdf">here</a>!</p>
             </div>
             My current interests
-            revolve around Python and Machine Learning.</p>
+            revolve around Natural Language Processing in python.</p>
     </div>
 
     <div class="m-auto md:w-2/3 w-1/2">
