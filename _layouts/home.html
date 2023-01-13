@@ -1,9 +1,7 @@
 ---
 layout: default
 ---
-{% if site.show-nav-menu %}
-{% include nav.html%}
-{% endif %}
+
 
 <div class="mx-auto text-center prose prose-{{site.theme-color}}">
   <div class="">
@@ -16,6 +14,10 @@ layout: default
   {% endif %}
 </div>
 </div>
+
+{% if site.show-nav-menu %}
+{% include nav.html%}
+{% endif %}
 
 {% include social-media.html %}
 {% include footer.html %}
