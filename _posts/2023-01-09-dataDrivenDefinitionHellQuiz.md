@@ -1,6 +1,6 @@
 ---
 layout: quiz
-title: "Data-Driven Definition Hell Quiz"
+title: "Data-Driven \"Definition Hell\" Quiz"
 tags: quiz data analyst engineer scientist
 ---
 
