@@ -13,47 +13,55 @@
             </button>
         </div>
 
-        <div class="flex md:block space-x-1 sm:space-x-2" id="navbar">
-
-            <div>
-                
-                {% if page.url != "/" %} <!-- don't show in menu for Homepage -->
-                <div class="flex flex-row w-42 pb-2">
-                    <img class="m-auto object-cover h-6 w-6 rounded-full"
-                        src="{{site.baseurl}}/assets/img/{{site.author-image}}" alt="author profile image">
-                        <div class="absolute w-6 h-6 backdrop-filter backdrop-contrast-200 bg-white/30"></div>
-                    <h1 class="grow font-mono text-slate-400 text-xs my-auto ml-1 px-1 py-1">{{site.author}}</h1>
-                </div>
-                {% endif %}
+        <!-- https://github.com/mathjax/MathJax/issues/277 -->
+        <!--also, note the liquid hack used here without closing the div -->
+        {% if page.url != "/" %} <!-- don't show in menu for Homepage -->
+        <div class="z-20 bg-white shadow-lg rounded-b-xl p-4 fixed flex md:block space-x-1 sm:space-x-2" id="navbar">
+        {% endif %}
+        {% if page.url == "/" %} <!-- show in menu for Homepage -->
+        <div class="z-20 bg-white rounded-b-xl flex md:block space-x-1 sm:space-x-2" id="navbar">
+        {% endif %}
 
                 <div>
 
-                    {% if page.url != "/" %} <!-- don't show Home in menu for Homepage -->
-                    <a class="font-mono mx-auto " href="{{site.baseurl}}/">
-                        <button
-                            class="uppercase text-gray-500 hover:text-gray-900 sm:w-36 w-18 text-xs sm:text-sm bg-white hover:bg-gray-100 px-3 py-1 sm:py-2 border border-gray-400 rounded shadow">
-                            Home
-                        </button>
-                    </a>
+
+                    {% if page.url != "/" %} <!-- don't show in menu for Homepage -->
+                    <div class="flex flex-row w-42 pb-2">
+                        <img class="m-auto object-cover h-6 w-6 rounded-full"
+                            src="{{site.baseurl}}/assets/img/{{site.author-image}}" alt="author profile image">
+                        <div class="absolute w-6 h-6 backdrop-filter backdrop-contrast-200 bg-white/30"></div>
+                        <h1 class="grow font-mono text-slate-400 text-xs my-auto ml-1 px-1 py-1">{{site.author}}</h1>
+                    </div>
                     {% endif %}
 
+                    <div>
+
+                        {% if page.url != "/" %} <!-- don't show Home in menu for Homepage -->
+                        <a class="font-mono mx-auto " href="{{site.baseurl}}/">
+                            <button
+                                class="uppercase text-gray-500 hover:text-gray-900 sm:w-36 w-18 text-xs sm:text-sm bg-white hover:bg-gray-100 px-3 py-1 sm:py-2 border border-gray-400 rounded shadow">
+                                Home
+                            </button>
+                        </a>
+                        {% endif %}
 
 
-                    <!-- dynamic menu based on navigation info in _config.yml -->
-                    {% for link in site.nav-menu %}
-                    {% if page.permalink != {{link.permalink}} %} <!-- don't show current page in menu -->
-                    <a class="font-mono   lg:py-1 mx-auto " href="{{site.baseurl}}/{{link.permalink}}">
-                        <button
-                            class="text-gray-500 hover:text-gray-900 uppercase sm:w-36 w-18 text-xs sm:text-sm bg-white hover:bg-gray-100 px-3 py-1 sm:py-2 border border-gray-400 rounded shadow">
-                            {{link.text}}
-                        </button>
-                    </a>
-                    {% endif %}
-                    {% endfor %}
+
+                        <!-- dynamic menu based on navigation info in _config.yml -->
+                        {% for link in site.nav-menu %}
+                        {% if page.permalink != {{link.permalink}} %} <!-- don't show current page in menu -->
+                        <a class="font-mono   lg:py-1 mx-auto " href="{{site.baseurl}}/{{link.permalink}}">
+                            <button
+                                class="text-gray-500 hover:text-gray-900 uppercase sm:w-36 w-18 text-xs sm:text-sm bg-white hover:bg-gray-100 px-3 py-1 sm:py-2 border border-gray-400 rounded shadow">
+                                {{link.text}}
+                            </button>
+                        </a>
+                        {% endif %}
+                        {% endfor %}
+                    </div>
                 </div>
             </div>
-        </div>
 
-    </div>
+        </div>
     </div>
 </nav>
