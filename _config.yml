@@ -40,7 +40,7 @@ footer-msg: "Hosted by Github (Credits to H. Wang)"
 footer-msg-link: https://github.com/iokarkan/blogfolio
 
 # google analytics
-# google-analytics: G-WCRC1TC2V5
+google-analytics: G-WCRC1TC2V5
 
 # jekyll plugins - no need to change
 plugins:
