@@ -1,4 +1,9 @@
-<nav class="flex flex-wrap items-center justify-center px-2 mb-6">
+{% if page.url == "/" %} <!-- don't show in menu for Homepage -->
+<nav class="flex flex-wrap items-center justify-center px-2 mb-4">
+{% endif %}
+{% if page.url != "/" %} <!-- don't show in menu for Homepage -->
+<nav class="flex flex-wrap items-center justify-center px-2 mb-12">
+{% endif %}
     <div class="container px-2 mx-auto flex flex-wrap items-center justify-center">
 
         <div class="w-full relative flex justify-center">
