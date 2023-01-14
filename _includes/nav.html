@@ -15,8 +15,8 @@
 
         <div class="flex md:block space-x-2" id="navbar">
             {% if page.url != "/" %} <!-- don't show Home in menu for Homepage -->
-            <button class="w-24 bg-white hover:bg-gray-100 border border-gray-400 rounded shadow">
-                <a class="text-sm font-mono text-gray-500 hover:text-gray-900 px-3 py-2 lg:py-1 mx-auto uppercase"
+            <button class="sm:36 w-18 bg-white hover:bg-gray-100 border border-gray-400 rounded shadow">
+                <a class="text-xs font-mono text-gray-500 hover:text-gray-900 px-3 py-2 lg:py-1 mx-auto uppercase"
                     href="{{site.baseurl}}/">
                     Home
                 </a>
@@ -26,8 +26,8 @@
             <!-- dynamic menu based on navigation info in _config.yml -->
             {% for link in site.nav-menu %}
             {% if page.permalink != {{link.permalink}} %} <!-- don't show current page in menu -->
-            <button class="w-24 bg-white hover:bg-gray-100 border border-gray-400 rounded shadow">
-                <a class="text-sm font-mono text-gray-500 hover:text-gray-900 px-3 py-2 lg:py-1 mx-auto uppercase"
+            <button class="sm:36 w-18 bg-white hover:bg-gray-100 border border-gray-400 rounded shadow">
+                <a class="text-xs font-mono text-gray-500 hover:text-gray-900 px-3 py-2 lg:py-1 mx-auto uppercase"
                     href="{{site.baseurl}}/{{link.permalink}}">
                     {{link.text}}
                 </a>
