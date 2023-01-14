@@ -7,7 +7,7 @@ module.exports = {
   darkMode: 'media',
   theme: {
     screens: {
-      'xs': '360px', 
+      'xs': '360px',
       // => @media (min-width: 420px) { ... }
       'sm': '640px',
       // => @media (min-width: 640px) { ... }
@@ -21,6 +21,18 @@ module.exports = {
       // => @media (min-width: 1536px) { ... }
     },
     extend: {
+      animation: {
+        type: 'type 2.7s ease-out .8s infinite alternate both',
+      },
+      keyframes: {
+        type: {
+          '0%, 20%': { transform: 'translateX(0ch)' },
+          '20%, 40%': { transform: 'translateX(1ch)' },
+          '40%, 60%': { transform: 'translateX(2ch)' },
+          '60%, 80%': { transform: 'translateX(3ch)' },
+          '80%, 100%': { transform: 'translateX(4ch)' }
+        },
+      },
       typography: {
         DEFAULT: {
           css: {
