@@ -21,7 +21,7 @@
         <!-- https://github.com/mathjax/MathJax/issues/277 -->
         <!--also, note the liquid hack used here without closing the div -->
         {% if page.url != "/" %} <!-- don't show in menu for Homepage -->
-        <div class="z-20 bg-white shadow-lg rounded-b-xl p-5 fixed flex md:block space-x-1 sm:space-x-2" id="navbar">
+        <div class="z-20 bg-white shadow-lg rounded-b-xl py-5 px-2 fixed flex md:block space-x-1 sm:space-x-2" id="navbar">
         {% endif %}
         {% if page.url == "/" %} <!-- show in menu for Homepage -->
         <div class="z-20 bg-white rounded-b-xl flex md:block space-x-1 sm:space-x-2" id="navbar">
