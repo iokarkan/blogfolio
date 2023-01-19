@@ -96,8 +96,8 @@ Local source and test files are separated:
 ```none
 ├── <part>-<exercise>_<name>/
       └── src/          # user-defined source code
-      └── <template>.py
-        └── test/       # the test suite
+        └── <template>.py
+      └── test/       # the test suite
         └── __init__.py
         └── test_<template>.py
       └── tmc/          # the local language-specific TMC source code
