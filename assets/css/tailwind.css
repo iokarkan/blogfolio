@@ -874,8 +874,24 @@ video {
   max-width: none;
 }
 
+.flex-shrink {
+  flex-shrink: 1;
+}
+
+.shrink {
+  flex-shrink: 1;
+}
+
+.flex-grow {
+  flex-grow: 1;
+}
+
 .grow {
   flex-grow: 1;
+}
+
+.border-collapse {
+  border-collapse: collapse;
 }
 
 .transform {
@@ -938,6 +954,10 @@ video {
   -webkit-user-select: auto;
      -moz-user-select: auto;
           user-select: auto;
+}
+
+.resize {
+  resize: both;
 }
 
 .grid-flow-dense {

@@ -1,5 +1,5 @@
 # change the followings to match your Github username and repo name
-baseurl: "/" # the name of your github repo
+baseurl: "/tailpages" # the name of your github repo, if you want to do local changes set this to "/tailpages" (url below is then irrelevant)
 url: "https://iokarkan.github.io" # the url of your github pages
 
 # site information used in page title, meta data etc.
@@ -36,8 +36,10 @@ google-scholar: false
 email: mailto:ioannis.karkanias@gmail.com
 
 # footer information
-footer-msg: "Hosted by Github (Credits to H. Wang)"
+footer-msg: "Hosted by Github"
 footer-msg-link: https://github.com/iokarkan/blogfolio
+theme-msg: "(Tailpages theme by H. Wang)"
+theme-msg-link: "https://github.com/harrywang/tailpages"
 
 # google analytics
 google-analytics: G-JXJ2YHWSLT
