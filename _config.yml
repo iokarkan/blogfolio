@@ -38,7 +38,7 @@ email: mailto:ioannis.karkanias@gmail.com
 # footer information
 footer-msg: "Hosted by Github"
 footer-msg-link: https://github.com/iokarkan/blogfolio
-theme-msg: "(Tailpages theme by H. Wang)"
+theme-msg: "(based on the Tailpages theme)"
 theme-msg-link: "https://github.com/harrywang/tailpages"
 
 # google analytics
