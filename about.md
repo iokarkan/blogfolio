@@ -4,6 +4,8 @@ title: About me
 permalink: about
 ---
 
+<!-- https://stackoverflow.com/questions/40453881/change-of-opacity-using-css-transition-and-vanilla-javascript-works-only-when-fa -->
+
 <div class="md:grid md:grid-cols-2 md:gap-3">
 
     <!-- Modal Functionality, use: -->
@@ -18,7 +20,7 @@ permalink: about
                 You can see my CV <a class="text-blue-600 dark:text-slate-100 hover:underline"
                     href="{{site.baseurl}}/assets/pdf/CV_IoannisKarkanias.pdf">here</a>!</p> -->
             <p class="p-2 text-sm text-white font-mono">
-                You can see my CV <button type='button' id="modal-open" class="text-blue-600 dark:text-slate-100 hover:underline"
+                You can see my CV <button type='button' id="modal-open" class="text-blue-600 dark:text-slate-100 underline"
                     href="{{site.baseurl}}/assets/pdf/CV_IoannisKarkanias.pdf">here</button>!</p>
 
             <div class="relative z-10 hidden" aria-labelledby="modal-title" role="dialog" aria-modal="true"
