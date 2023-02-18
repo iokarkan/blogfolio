@@ -75,9 +75,9 @@ permalink: about
     var modal_close = document.getElementById('modal-close');
     var modal_open = document.getElementById('modal-open');
 
-    console.log(modal)
-    console.log(modal_close)
-    console.log(modal_open)
+    // console.log(modal)
+    // console.log(modal_close)
+    // console.log(modal_open)
 
     modal_open.addEventListener("click", function clicked() {
 
