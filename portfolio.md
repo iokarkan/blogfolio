@@ -47,10 +47,20 @@ terms of previously unobserved interactions have been found.
     </div>
 </div>
 
-<br />You may find a full presentation of my thesis <a
-    href="{{site.baseurl}}/assets/pdf/Ioannis-Karkanias-PhD-Thesis-Presentation.pdf">here.</a>
+<br />
+
+<div class="m-auto rounded-2xl bg-slate-200 text-center w-fit">
+    <p class="p-2 text-sm text-indigo-800 font-mono">You may find a full presentation of my thesis <a class="iframe cboxElement"
+        href="{{site.baseurl}}/assets/pdf/Ioannis-Karkanias-PhD-Thesis-Presentation.pdf"
+        title="PhD Presentation - 13/5/2022">here</a>!</p>
+</div>
 
 
 ## Other Projects
 
 ### Coming soon...
+
+<script>
+    jQuery('a.iframe').colorbox({ iframe: true, width: "80%", height: "80%" });
+
+</script>
