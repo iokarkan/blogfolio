@@ -5,12 +5,12 @@ layout: default
 
 <div class="mx-auto text-center prose prose-{{site.theme-color}}">
   <div class="">
-      <img class="object-cover mx-auto h-56 w-56 rounded-full" src="{{site.baseurl}}/assets/img/{{site.author-image}}"
+      <img class="object-cover mx-auto sm:h-56 sm:w-56 h-48 w-48 rounded-full" src="{{site.baseurl}}/assets/img/{{site.author-image}}"
         alt="author profile image">
     <h1 class="font-mono mx-2">{{site.author}}</h1>
   </div>
   {% if site.author-bio %}
-  <p class="text-gray-500 pb-4">{{site.author-bio}}</p>
+  <p class="text-gray-500 sm:pb-4">{{site.author-bio}}</p>
   {% endif %}
 </div>
 </div>
