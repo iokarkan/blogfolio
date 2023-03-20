@@ -49,7 +49,7 @@ permalink: about
 </div>
 
 <script>
-    jQuery('a.iframe').colorbox({iframe:true, width: "80%", height:"80%"});
+    jQuery('a.iframe').colorbox({iframe:true, width: "80%", height: "60vh%"});
 
 </script>
 
