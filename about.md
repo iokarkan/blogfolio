@@ -41,8 +41,7 @@ permalink: about
         <div class="text-md">
             <figcaption class="text-center">
                 (Object Detection using
-                <a href="https://github.com/dmlc/gluon-cv">GluonCV
-                </a>)
+                <a href="https://github.com/dmlc/gluon-cv">GluonCV</a>)
             </figcaption>
         </div>
     </div>
