@@ -31,7 +31,7 @@ permalink: about
         </div>
 
         My current interests
-        revolve around Natural Language Processing in python.</p>
+        revolve around open-source Generative Transformer-based Deep Learning models.</p>
     </div>
 
     <div class="m-auto md:w-2/3 w-1/2">
