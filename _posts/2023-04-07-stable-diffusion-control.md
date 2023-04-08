@@ -4,22 +4,22 @@ title: "Controlling generated images with Stable Diffusion"
 tags: generative AI stable diffusion
 ---
 
-If you haven't been living under a rock, you are aware that the world has experienced a technological boom related to
-generative Artificial Intelligence, specifically due to the wonders harnessing the power of the Transformer
+If you haven't been living under a rock, you should be aware that the world has experienced a technological boom related to
+generative Artificial Intelligence, specifically due to the wonders brought about after harnessing the power of the Transformer
 architecture. In the last year, the transmutation of user-fed text prompts to high-resolution images or human-like
-conversational responses has taken the world by storm, to the point of discussing the halt of further development out of
+conversational responses has taken the world by storm, to the point of discussing the halting of further development out of
 panic.
 
 Stable Diffusion is a generative AI model, capable of **turning text prompts to images** (simple, huh?). Roughly, it
 works by starting from a block of noise, and trying to procedurally structure the noise into an image that follows the
 given prompt. Under the hood, your text prompt is being processed within a large vector space encoding a plethora of
-natural language examples, and the concept it is describing helps massage the chaotic numbers in the noise into
+natural language examples, and the concept it is describing helps massage the chaotic numbers of pixel noise into
 revealing a similar construct in the produced image.
 
-You can also **provide a starting image** to go with the text prompt, to further assist the model to spawn some new
+You can also **provide a starting image** to go with the text prompt, to further assist the model to spawning some
 pixels. Or you can tell the model to paint your prompt over only a specific part of the image given, a technique called
-**in-painting**. Or have the model paint outside the generated image, matching the style of the original, a.k.a.
-**out-painting**. All this is now possible with varying degrees of freedom represented in the final result, either
+**in-painting**. Alternatively, you can have the model paint outside the generated image, matching the style of the original, a.k.a.
+**out-painting**. All this is now possible with varying degrees of freedom in representing the final result, either
 minimally altering the input image or have it serve as a nebulous psychedelic inspiration for the artisan AI painter.
 
 [Stable diffusion](https://stability.ai/blog/stable-diffusion-public-release) is open-source (usually under a
@@ -56,7 +56,7 @@ For our object description, we can input something like:
 where the parentheses and the number act as modifiers to gauge the contribution of that part of the prompt in the final
 image (in some implementations).
 
-Currently, AI models may fumble such abstract directions, so it should be safer to just specify:
+Currently, AI models may fumble such abstract directives, so it should be safer to just specify:
 
 > (darth vader:1.2)
 
@@ -68,8 +68,7 @@ detailed
 
 
 Stable Diffusion allows for another text prompt, called **Negative prompt**, which are words that you don't want to be
-able to describe the output image with. You'd want to specify here some known features that outputs that lack such
-prompts are likely to contain:
+able to describe the output image with. You'd want to specify here some known features, that are likely to be contained in outputs missing the negative prompt:
 
 > low quality, jpeg artefacts, blurry, low resolution, worst quality, watermark, lowres, hands, bad-hands-5, poorly
 drawn hands, poorly drawn face, bad proportions, deformed
@@ -98,12 +97,12 @@ camera` is a good choice. However, as mentioned, we're taking a fancier road.
 I found the image of a man posing in a manner that I decided would be near the pose I'd like our Vader to have. Using
 Controlnet's OpenPose model, we can extract the pose of the person in the picture:
 
-<div class="flex flex-col sm:flex-row">
-    <div class="sm:pr-10 sm:scale-100 scale-90 m-auto rounded-full">
+<div class="flex flex-col sm:flex-row sm:gap-5 sm:p-0 p-10">
+    <div class="sm:w-[70%] w-[100%] m-auto rounded-full">
         <img class="rounded-lg"
             src="{{site.baseurl}}/assets/img/vader-stable-diffusion/depositphotos_56832909-stock-photo-muscular-man-holding-ancient-sword.jpg">
     </div>
-    <div class="sm:scale-100 scale-90 m-auto rounded-full">
+    <div class="sm:w-[70%] w-[100%] m-auto rounded-full">
         <img class="rounded-lg" src="{{site.baseurl}}/assets/img/vader-stable-diffusion/pose.png">
     </div>
 </div>
@@ -119,7 +118,7 @@ better results instantly:
 </div>
 
 The pose is transferred over in varying but satisfactory degrees of success. The lightsaber is also generated without
-specifying it in the prompt - the pose was enough for the model to assume it!. I chose the first image from the second
+specifying it in the prompt - the pose was enough for the model to assume it! I chose the first image from the second
 row to continue.
 
 ## Retouch
@@ -182,7 +181,7 @@ be used to create a pulsating effect, give the effect of a roaring flame, or eve
 New methods allow even multi-region control of in-painting masks, giving a different prompt to each masked portion of the image (see [this](https://www.youtube.com/watch?v=TYrHBFQPMys) video by Sebastian Kamph on YouTube.).
 
 From what I've seen lately, txt2video techniques are emerging, and the results are very promising.
-Let's wrap-up thematically with this lovely gif, taken from FollowYourPose, a txt2video model that takes a sequence of poses and animates it according to your text prompt:
+Let's wrap-up thematically with this lovely gif, taken from [FollowYourPose](https://github.com/mayuelala/FollowYourPose), a txt2video model that takes a sequence of poses and animates it according to your text prompt:
 
 <div class="w-[75%] sm:p-5 m-auto rounded-full">
     <img class="rounded-lg" src="{{site.baseurl}}/assets/img/vader-stable-diffusion/vervA Stormtrooper on the sea.gif">
