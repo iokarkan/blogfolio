@@ -183,6 +183,6 @@ New methods allow even multi-region control of in-painting masks, giving a diffe
 From what I've seen lately, txt2video techniques are emerging, and the results are very promising.
 Let's wrap-up thematically with this lovely gif, taken from [FollowYourPose](https://github.com/mayuelala/FollowYourPose), a txt2video model that takes a sequence of poses and animates it according to your text prompt:
 
-<div class="w-[75%] sm:p-5 m-auto rounded-full">
-    <img class="rounded-lg" src="{{site.baseurl}}/assets/img/vader-stable-diffusion/vervA Stormtrooper on the sea.gif">
+<div class="rounded-full">
+    <img class="m-auto rounded-lg" src="{{site.baseurl}}/assets/img/vader-stable-diffusion/vervA Stormtrooper on the sea.gif">
 </div>
