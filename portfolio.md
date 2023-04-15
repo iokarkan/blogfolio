@@ -4,9 +4,50 @@ title: My work
 permalink: portfolio
 ---
 
-## Research: Applying multivariate methods in Experimental Particle Physics Analysis
+## AI Development
+----
+### Large Language Models
+#### Models and Libraries
+- HuggingFace `transformers`, `pipelines`
+- `langchain`
+- [`llama.cpp`](https://github.com/ggerganov/llama.cpp) using Stanford's `alpaca` and nomic AI's `GPT4All`
+<div class="m-auto rounded-2xl bg-slate-200 text-center w-fit">
+    <p class="p-2 text-sm text-indigo-800 font-mono">Demo of a <a
+            href="https://huggingface.co/spaces/ioanniskarkanias/chatbot-with-sources">Chatbot
+            with Sources</a></p>
+</div>
 
-#### Tools
+### Generative text-to-image and image-to-image
+#### Models and Libraries
+- Stable Diffusion
+- [InvokeAI](https://github.com/invoke-ai/InvokeAI)
+- [automatic1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
+
+<div class="flex sm:flex-row sm:gap-5 sm:p-0 p-15 mx-10">
+    <div class="sm:w-[30%] w-[30%] m-auto rounded-full">
+        <img class="rounded-lg"
+            src="{{site.baseurl}}/assets/img/vader-stable-diffusion/depositphotos_56832909-stock-photo-muscular-man-holding-ancient-sword.jpg">
+    </div>
+    <div class="mx-2 my-auto rounded-full">
+        <span>⟶</span>
+    </div>
+    <div class="sm:w-[25%] w-[25%] m-auto rounded-full">
+        <img class="rounded-lg" src="{{site.baseurl}}/assets/img/vader-stable-diffusion/pose.png">
+    </div>
+    <div class="mx-2 my-auto rounded-full">
+        <span>⟶</span>
+    </div>
+    <div class="sm:w-[25%] w-[25%] m-auto rounded-full">
+        <img class="rounded-lg" src="{{site.baseurl}}/assets/img/vader-stable-diffusion/vader-resolution-buttons.png">
+    </div>
+</div>
+
+
+## Research
+----
+### Applying multivariate methods in Experimental Particle Physics Analysis
+
+#### Libraries
 - numpy, pandas, scikit-learn, scipy
 - py-$$\mathtt{ROOT}$$
 - Keras
@@ -50,17 +91,12 @@ terms of previously unobserved interactions have been found.
 <br />
 
 <div class="m-auto rounded-2xl bg-slate-200 text-center w-fit">
-    <p class="p-2 text-sm text-indigo-800 font-mono">You may find a full presentation of my thesis <a class="iframe cboxElement"
-        href="{{site.baseurl}}/assets/pdf/Ioannis-Karkanias-PhD-Thesis-Presentation.pdf"
-        title="PhD Presentation - 13/5/2022">here</a>!</p>
+    <p class="p-2 text-sm text-indigo-800 font-mono">You may find a full presentation of my thesis <a
+            class="iframe cboxElement" href="{{site.baseurl}}/assets/pdf/Ioannis-Karkanias-PhD-Thesis-Presentation.pdf"
+            title="PhD Presentation - 13/5/2022">here</a>!</p>
 </div>
 
-
-## Other Projects
-
-### Coming soon...
-
 <script>
-    jQuery('a.iframe').colorbox({iframe:true, width: "80%", height: "60vh%"});
+    jQuery('a.iframe').colorbox({ iframe: true, width: "80%", height: "60vh%" });
 
 </script>
