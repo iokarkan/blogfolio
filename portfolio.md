@@ -23,7 +23,7 @@ permalink: portfolio
 - [InvokeAI](https://github.com/invoke-ai/InvokeAI)
 - [automatic1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
 
-<div class="flex sm:flex-row sm:gap-5 sm:p-0 p-15 mx-10">
+<div class="flex sm:flex-row sm:gap-5 sm:p-0 mx-6">
     <div class="sm:w-[30%] w-[30%] m-auto rounded-full">
         <img class="rounded-lg"
             src="{{site.baseurl}}/assets/img/vader-stable-diffusion/depositphotos_56832909-stock-photo-muscular-man-holding-ancient-sword.jpg">
