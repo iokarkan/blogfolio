@@ -6,7 +6,7 @@ permalink: portfolio
 
 ## AI Development
 ----
-### Large Language Models
+### Large Language Model Applications
 #### Models and Libraries
 - HuggingFace transformers, pipelines
 - gradio
