@@ -41,7 +41,10 @@ permalink: portfolio
         <img class="rounded-lg" src="{{site.baseurl}}/assets/img/vader-stable-diffusion/vader-resolution-buttons.png">
     </div>
 </div>
-
+<div class="m-auto rounded-2xl bg-slate-200 text-center w-fit">
+    <p class="p-2 text-sm text-indigo-800 font-mono">Check out this blog post: <a
+            href="https://iokarkan.github.io/2023/04/07/stable-diffusion-control.html">Controlling generated images with Stable Diffusion</a></p>
+</div>
 
 ## Research
 ----
