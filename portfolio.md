@@ -8,9 +8,10 @@ permalink: portfolio
 ----
 ### Large Language Models
 #### Models and Libraries
-- HuggingFace `transformers`, `pipelines`
-- `langchain`
-- [`llama.cpp`](https://github.com/ggerganov/llama.cpp) using Stanford's `alpaca` and nomic AI's `GPT4All`
+- HuggingFace transformers, pipelines
+- gradio
+- langchain
+- [llama.cpp](https://github.com/ggerganov/llama.cpp) using Stanford's `alpaca` and nomic AI's `GPT4All`
 <div class="m-auto rounded-2xl bg-slate-200 text-center w-fit">
     <p class="p-2 text-sm text-indigo-800 font-mono">Demo of a <a
             href="https://huggingface.co/spaces/ioanniskarkanias/chatbot-with-sources">Chatbot
