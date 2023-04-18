@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Create Chatbots with a customizable Knowledgebase using LangChain"
+title: "Create Chatbots with a customizable knowledge base using LangChain"
 tags: generative AI LLM langchain
 ---
 
