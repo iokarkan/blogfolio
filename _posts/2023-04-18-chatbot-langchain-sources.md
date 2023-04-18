@@ -7,7 +7,7 @@ tags: generative AI LLM langchain
 [LangChain](https://python.langchain.com/en/latest/index.html) is an innovative library that simplifies the creation of
 chatbots. One of its key features that I've been exploring is the ability to store and retrieve text data as knowledge
 sources. After playing with it for a while, I've come to think that this may be one of the first big corporate utility
-applications of Large Language Models (LLMs). This post is an an overview of how to create a chatbot using LangChain
+applications of Large Language Models (LLMs). This post is an overview of how to create a chatbot using LangChain
 that leverages this novel functionality.
 
 <div class="m-auto rounded-2xl bg-slate-200 text-center ">
@@ -48,8 +48,20 @@ mechanisms.
 
 ```
 def update_sources(self, fname):
+    if Path(fname).suffix==".txt":
+        loader = TextLoader(file_path=f"{fname}")
+        data = loader.load()        
     ...
-    self.sources.append(data[0].page_content)
+
+    text_splitter = CharacterTextSplitter(chunk_size=100, chunk_overlap=0)
+    texts = text_splitter.split_documents(data)
+
+    if not self.db:
+        self.db = Chroma.from_documents(texts, self.embeddings)
+    else:
+        self.db.add_documents(texts)
+    
+    self.update_chain()
 ```
 
 The `update_chain` method swaps the chatbot's chain to a `ConversationalRetrievalChain` once sources are added. This
@@ -58,6 +70,8 @@ should be updated to match the number of sources to be queried, so that all poss
 
 ```
 def update_chain(self):
+    self.similarity_k = len(self.sources)
+    retriever = self.db.as_retriever(search_kwargs={"k": self.similarity_k})
     ...
 ```
 
@@ -72,14 +86,14 @@ btn.upload(fn=add_file,
     outputs=[chatbot_output, chatbot_instance, markdown])
 ```
 
-Once a file is uploaded, the chatbot's knowledge sources are updated, and the user can query information related to the
-uploaded content. Uploaded files are displayed in a markdown panel, providing a clear overview of the chatbot's current
-knowledge sources.
-
 Gradio provides the `gradio.State()` which is support for [session state](https://gradio.app/state-in-blocks/) in your
 applications. This is necessary to de-couple one user's experiences from another's. In our examples, each user has their
 own "database" to query, but in a professional environment the knowledgebase exposed to users may be common, to some
 extent.
+
+Once a file is uploaded, the chatbot's knowledge sources are updated, and the user can query information related to the
+uploaded content. Uploaded files are displayed in a markdown panel, providing a clear overview of the chatbot's current
+knowledge sources.
 
 ## Enhanced Chatbot Responses
 
