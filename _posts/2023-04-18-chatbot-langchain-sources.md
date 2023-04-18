@@ -12,7 +12,7 @@ that leverages this novel functionality.
 
 <div class="m-auto rounded-2xl bg-slate-200 text-center ">
     <p class="p-2 text-sm text-indigo-800 font-mono">Check out a demo with the full <a
-            src="https://huggingface.co/spaces/ioanniskarkanias/chatbot-with-sources/blob/main/app.py">code</a> in my
+            href="https://huggingface.co/spaces/ioanniskarkanias/chatbot-with-sources/blob/main/app.py">code</a> in my
         HuggingFace <a href="https://huggingface.co/spaces/ioanniskarkanias/chatbot-with-sources">space</a>
         <br />
         <br />
