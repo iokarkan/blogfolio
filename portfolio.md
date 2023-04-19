@@ -101,6 +101,5 @@ terms of previously unobserved interactions have been found.
 </div>
 
 <script>
-    jQuery('a.iframe').colorbox({ iframe: true, width: "80%", height: "60vh%" });
-
+    jQuery('a.iframe').colorbox({iframe:true, height:"700px", width:"80vw%"});
 </script>

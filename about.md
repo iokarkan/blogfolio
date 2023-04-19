@@ -20,11 +20,14 @@ permalink: about
                 You can see my CV <a class="text-blue-600 dark:text-slate-100 hover:underline"
                     href="{{site.baseurl}}/assets/pdf/CV_IoannisKarkanias.pdf">here</a>!</p> -->
             <p class="p-2 text-sm text-indigo-800 font-mono">
-                You can see my CV
+                You can see my <a href="https://iokarkan.github.io/2023/02/19/customCVmatplotlib.html">funky</a> CV
                 <!-- <button type='button' id="modal-open" class="text-blue-600 dark:text-slate-100 underline">
                     here
                 </button>! -->
-                <a class="iframe cboxElement" href="{{site.baseurl}}/assets/pdf/CV_IoannisKarkanias.pdf" title="CV - Ioannis Karkanias (2023)">here</a>!
+                <a class="iframe cboxElement" href="{{site.baseurl}}/assets/pdf/CV_IoannisKarkanias.pdf" title="CV - Ioannis Karkanias (2023)">here</a>
+                <br/>
+                <br/>
+                or a more boring version <a class="iframe cboxElement" href="{{site.baseurl}}/assets/pdf/CV_Ioannis_Karkanias.pdf" title="CV - Ioannis Karkanias (2023)">here</a>!
             </p>
 
 
@@ -49,7 +52,7 @@ permalink: about
 </div>
 
 <script>
-    jQuery('a.iframe').colorbox({iframe:true, width: "80%", height: "60vh%"});
+    jQuery('a.iframe').colorbox({iframe:true, height:"700px", width:"80vw%"});
 
 </script>
 
