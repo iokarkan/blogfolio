@@ -31,6 +31,16 @@
           </button>
         </a>
         {% endif %}
+        
+        {% if site.linkedin %}
+        <a href="{{site.linkedin}}" target="_blank">
+          <button
+            class="bg-white text-blueGray-800 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+            type="button">
+            <i class="fab fa-linkedin"></i>
+          </button>
+        </a>
+        {% endif %}
 
         {% if site.github %}
         <a href="{{site.github}}" target="_blank">
@@ -38,16 +48,6 @@
             class="bg-white text-blueGray-800 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
             type="button">
             <i class="fab fa-github"></i>
-          </button>
-        </a>
-        {% endif %}
-
-        {% if site.linkedin %}
-        <a href="{{site.linkedin}}" target="_blank">
-          <button
-            class="bg-white text-blueGray-800 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
-            type="button">
-            <i class="fab fa-linkedin"></i>
           </button>
         </a>
         {% endif %}
