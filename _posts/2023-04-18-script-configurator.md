@@ -85,7 +85,7 @@ attribute, let alone defining new attributes in the first place. You can overrid
 
 Here's a side-by-side comparison of the three:
 
-### Argparse - within script
+### Argparse
 
 ```python
 # sample.py
