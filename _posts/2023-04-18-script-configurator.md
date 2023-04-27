@@ -4,13 +4,13 @@ title: "\"Poor Man's Configurator\": An unorthodox way to config your scripts by
 tags: python development
 ---
 
-As an AI language mod- (kidding) Python script-kiddie, I know how managing configurations can become quite complicated when dealing with large projects. Hell, even exploratory tuning of small scripts (that you 100% wrote yourself without overnight assistance from AI elves) doesn't take too long to bloat. While looking into all the craze that I have missed during these hectic months, a time when we were running out of exotic animals to name our AI models, I stumbled upon a clever way to simplify configuration management - authored by none other than [Andrej Karpathy](https://karpathy.ai/), Sr. Director of Tesla Motors. 
+As an AI language mod- (kidding) Python script-kiddie, I know how managing configurations can become quite complicated when dealing with large projects. Hell, even exploratory tuning of small scripts (that you 100% wrote yourself without overnight assistance from AI elves) doesn't take too long to bloat. While looking into all the craze that I have missed during these hectic months, a time when we were running out of exotic animals to name our AI models, I stumbled upon a clever way to simplify configuration management - authored by none other than [Andrej Karpathy](https://karpathy.ai/), ex Sr. Director of Tesla Motors. 
 
 I briefly present and describe the usage of configurator.py and compare it with other methods like Python's argparse and using a config class. Readers are invited to let me know of other hacky setups that they've come to prefer.
 
 ## nanoGPT's Configuration Scheme
 
-Around three months ago, at the time of writing, Dr. Karpathy went educationally viral with his from-scratch implementation of [`nanoGPT`](https://github.com/karpathy/nanoGPT), a pure-PyTorch (+numpy) implementation of the Deep Learning Transformer decoder model architecture from the seminal paper [Attention Is All You Need](https://arxiv.org/abs/1706.03762) by a(mostly) Google team.
+Around three months ago, at the time of writing, Dr. Karpathy went educationally viral with his from-scratch implementation of [`nanoGPT`](https://github.com/karpathy/nanoGPT), a pure-PyTorch (+numpy) implementation of the Deep Learning Transformer decoder model architecture from the seminal paper [Attention Is All You Need](https://arxiv.org/abs/1706.03762) by a (mostly) Google team.
 
 [`configurator.py`](https://github.com/karpathy/nanoGPT/blob/master/configurator.py) is a lightweight solution that abstracts the configuration set-up process for a main file, such as the LLM evaluation script `sample.py`, or the training script `train.py` of the repository. The key benefit of using configurator.py is that it simplifies the configuration process and allows easy overriding of variables through command-line arguments or configuration files.
 
