@@ -12,6 +12,18 @@ I briefly present and describe the usage of configurator.py and compare it with 
 
 Around three months ago, at the time of writing, Dr. Karpathy went educationally viral with his from-scratch implementation of [`nanoGPT`](https://github.com/karpathy/nanoGPT), a pure-PyTorch (+numpy) implementation of the Deep Learning Transformer decoder model architecture from the seminal paper [Attention Is All You Need](https://arxiv.org/abs/1706.03762) by a (mostly) Google team.
 
+<div class="m-auto rounded-2xl bg-slate-200 text-center ">
+    <p class="p-2 text-sm text-indigo-800 font-mono">Check out A. Karpathy's brilliant nanoGPT lecture here:
+        <iframe class='m-auto w-[100%] px-8 py-2' height='300' allowfullscreen="allowfullscreen"
+        mozallowfullscreen="mozallowfullscreen" 
+        msallowfullscreen="msallowfullscreen" 
+        oallowfullscreen="oallowfullscreen" 
+        webkitallowfullscreen="webkitallowfullscreen" src="https://www.youtube.com/embed/kCc8FmEb1nY">
+        </iframe>
+    </p>
+
+</div>
+
 [`configurator.py`](https://github.com/karpathy/nanoGPT/blob/master/configurator.py) is a lightweight solution that abstracts the configuration set-up process for a main file, such as the LLM evaluation script `sample.py`, or the training script `train.py` of the repository. The key benefit of using configurator.py is that it simplifies the configuration process and allows easy overriding of variables through command-line arguments or configuration files.
 
 ```python
