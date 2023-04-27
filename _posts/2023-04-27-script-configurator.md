@@ -92,7 +92,7 @@ python train.py config/train_shakespeare_char.py \
 
 Importantly, it distinguishes between configuration files and \--key=value arguments. Thus, it's easier to manage and override configurations. There's no need to define every argument explicitly like in argparse or a configuration dictionary/class. The key feature of this configuration, in my opinion, is that it combines multi-level modularity in the parameters declared (script-level < config-level < command-level). It allows for easy overriding of variables through command-line arguments or configuration files, providing un-cluttered distributed flexibility.
 
-Much like having an imported `Config` python Class, we achive less clutter in the main file, making it easier to understand and maintain. The added benefit is that one does not instead have to prepend the `config` instance name before calling an 
+Much like having an imported `Config` python Class, we achieve less clutter in the main file, making it easier to understand and maintain. The added benefit is that one does not instead have to prepend the `config` instance name before calling an 
 attribute, let alone defining new attributes in the first place. You can override any global variable already defined before the `exec` line.
 
 Here's a side-by-side comparison of the three:
