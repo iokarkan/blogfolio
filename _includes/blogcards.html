@@ -37,7 +37,9 @@
   </div>
   
   <div class="w-[50%] flex items-center justify-center text-6xl text-indigo-500">
-    {{ post.emoji }}
+    {% if post.icon %}
+      <i class="{{ post.icon }}"></i>
+    {% endif %}
   </div>
 </div>
 

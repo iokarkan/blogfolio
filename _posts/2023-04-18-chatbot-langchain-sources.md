@@ -2,7 +2,7 @@
 layout: post
 title: "Create Chatbots with a customizable knowledge base using LangChain"
 tags: generative AI LLM langchain
-emoji: "🤖"
+icon: "fas fa-hammer"
 ---
 
 [LangChain](https://python.langchain.com/en/latest/index.html) is an innovative library that simplifies the creation of
