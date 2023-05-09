@@ -2,6 +2,7 @@
 layout: quiz
 title: "Data-Driven \"Definition Hell\" Quiz"
 tags: quiz data analyst engineer scientist
+icon: "fas fa-mug-hot"
 ---
 
 ## What's that?

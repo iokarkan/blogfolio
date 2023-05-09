@@ -2,6 +2,7 @@
 layout: post
 title: "Controlling generated images with Stable Diffusion"
 tags: generative AI stable diffusion
+icon: "fas fa-hammer"
 ---
 
 If you haven't been living under a rock, you should be aware that the world has experienced a technological boom related to

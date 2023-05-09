@@ -2,6 +2,7 @@
 layout: post
 title: "Putting the \"graphic\" back in \"biographic\": Make your CV using matplotlib"
 tags: CV matplotlib jupyter
+icon: "fas fa-hammer"
 ---
 
 In general, I've had issue with expressing myself through my CV. This week I took the time to create a CV that's more funky than average. Here's the code, jupyter notebook style, to make it from scratch using python, a dash of numpy, pandas and, most importantly, matplotlib.

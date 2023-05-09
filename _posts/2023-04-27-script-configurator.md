@@ -2,6 +2,7 @@
 layout: post
 title: "\"Poor Man's Configurator\": An unorthodox way to config your scripts by A. Karpathy"
 tags: python development
+icon: "fas fa-mug-hot"
 ---
 
 As an AI language mod- (kidding) Python script-kiddie, I know how managing configurations can become quite complicated when dealing with large projects. Hell, even exploratory tuning of small scripts (that you 100% wrote yourself without overnight assistance from AI elves) doesn't take too long to bloat. While looking into all the craze that I have missed during these hectic months, a time when we were running out of exotic animals to name our AI models, I stumbled upon a clever way to simplify configuration management - authored by none other than [Andrej Karpathy](https://karpathy.ai/), ex Sr. Director of AI at Tesla Motors and founding member of OpenAI. 
