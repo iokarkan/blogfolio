@@ -2,6 +2,7 @@
 layout: post
 title: "How the pros grade online courses"
 tags: helsinki mooc testing
+icon: "fas fa-newspaper"
 ---
 
 <!-- Talking about my favourite courses online, MOOC.fi. The focus is on the very interesting way to evaluate the performance of students on code assignments! -->

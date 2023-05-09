@@ -18,30 +18,28 @@
 
   {% for post in site.posts limit:3 %}
 
-  <div class="m-auto flex flex-row max-w-[75%] md:max-w-lg rounded-lg bg-white shadow-lg transition ease-in-out hover:scale-[1.1]">
+  <div
+    class="m-auto flex flex-row max-w-[75%] md:max-w-lg rounded-lg bg-white shadow-lg transition ease-in-out hover:scale-[1.1]">
 
     <!-- <img class=" w-full h-96 md:h-auto object-cover md:w-48 rounded-t-lg md:rounded-none md:rounded-l-lg" src="https://mdbootstrap.com/wp-content/uploads/2020/06/vertical.jpg" alt="" /> -->
 
-    <div class="w-[100%] h-fit px-4 py-4 flex sm:flex-row flex-col justify-start items-start overflow-hidden">
-  <div class="flex-grow">
-    <a class="w-fit" href={{site.baseurl}}{{ post.url }}>
-      <h5 class="text-blue-900 text-md font-mono font-medium mb-2 hover:text-blue-300">{{ post.title }}</h5>
-    </a>
-    <p class="text-gray-600 text-xs "> {{post.date | date: "%B %-d, %Y"}} </p>
-    <div class="px-2 py-2 text-sm">
-      <p class="text-gray-700">
-        <!-- {{ post.excerpt }}  -->
-        {{ post.content | strip_html | truncatewords: 15 }}
-      </p>
+    <div class="w-[100%] h-fit px-4 py-4 flex flex-row justify-start items-start overflow-hidden">
+      <div class="flex-grow">
+        <a class="w-full flex flex-row justify-between" href={{site.baseurl}}{{ post.url }}>
+          <h5 class="text-blue-900 text-md font-mono font-medium mb-2 hover:text-blue-300 mr-2">{{ post.title }}</h5>
+          {% if post.icon %}
+            <i class="{{ post.icon }} text-blue-200 px-2 text-4xl"></i>
+          {% endif %}
+        </a>
+        <p class="text-gray-600 text-xs "> {{post.date | date: "%B %-d, %Y"}} </p>
+        <div class="px-2 py-2 text-sm">
+          <p class="text-gray-700">
+            <!-- {{ post.excerpt }}  -->
+            {{ post.content | strip_html | truncatewords: 15 }}
+          </p>
+        </div>
+      </div>
     </div>
-  </div>
-  
-  <div class="m-auto w-[50%] opacity-50 flex items-center justify-center text-6xl text-indigo-500">
-    {% if post.icon %}
-      <i class="{{ post.icon }}"></i>
-    {% endif %}
-  </div>
-</div>
 
   </div>
   {% endfor %}

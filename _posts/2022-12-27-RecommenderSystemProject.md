@@ -2,6 +2,7 @@
 layout: post
 title: "Surprisingly intuitive recommender systems"
 tags: machine learning recommender surprise
+icon: "fas fa-hammer"
 ---
 
 Service or product recommendations happen to be major applications of Machine Learning that are tightly woven with our every day user experience online, especially social networks and media consumption. Simultaneously, it has been one of the directions that I have not had the chance to explore yet, so I decided to pursue an intuitive understanding and to put together this little introduction.
