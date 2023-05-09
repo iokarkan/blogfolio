@@ -34,7 +34,6 @@
         <p class="text-gray-600 text-xs "> {{post.date | date: "%B %-d, %Y"}} </p>
         <div class="px-2 py-2 text-sm">
           <p class="text-gray-700">
-            <!-- {{ post.excerpt }}  -->
             {{ post.content | strip_html | truncatewords: 15 }}
           </p>
         </div>
