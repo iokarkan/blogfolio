@@ -1724,6 +1724,18 @@ video {
   text-decoration-line: none !important;
 }
 
+.opacity-\[50\%\] {
+  opacity: 50%;
+}
+
+.opacity-50 {
+  opacity: 0.5;
+}
+
+.opacity-25 {
+  opacity: 0.25;
+}
+
 .mix-blend-plus-lighter {
   mix-blend-mode: plus-lighter;
 }
