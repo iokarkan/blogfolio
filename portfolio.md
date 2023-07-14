@@ -108,12 +108,15 @@ feedback and ideas!
 - Keras
 
 #### Summary
-
-During my doctorate research, I worked as an author of the ATLAS experiment under an analysis group focusing on a
-special category of particle interactions associated with di-boson (specifically $$W^{\pm}Z$$) production and
-scattering. The culmination of my thesis was to work with LHC data from the period between 2015 and 2018 to validate the
-observation of a purely electroweak signal and set experimental limits for New Physics, based on an extension of terms
-of the Standard Model Lagrangian of Particle Physics.
+<p class="text-justify">
+    During my doctorate research, I worked as an author of the ATLAS experiment under an analysis group focusing on a
+    special category of particle interactions associated with di-boson (specifically $W^{\pm}Z$) production and
+    scattering. The culmination of my thesis was to work with LHC data from the period between 2015 and 2018 to validate
+    the
+    observation of a purely electroweak signal and set experimental limits for New Physics, based on an extension of
+    terms
+    of the Standard Model Lagrangian of Particle Physics.
+</p>
 
 <div class="">
     <div class="m-auto w-1/2 text-center"><img class="m-auto" src="{{site.baseurl}}/assets/img/PhD-nll.png"
@@ -123,12 +126,16 @@ of the Standard Model Lagrangian of Particle Physics.
     </div>
 </div>
 
-The statistical analysis compared single and multi-variate methods (traditionally Boosted Decision Trees) to an
-application of Neural Network trained utilizing a selection of topological features discriminating the various exepected
-theoretical signal signatures from the Standard Model background, with the resulting limits on novel interaction being
-far more constrained in the latter case. Limits on the New Physics (EFT) model parameters were extracted using the
-profile-likelihood ratio test statistic at a 68% and 95% C.L., being close to $$0$$ as no significant deviations in
-terms of previously unobserved interactions have been found.
+<p class="text-justify">
+    The statistical analysis compared single and multi-variate methods (traditionally Boosted Decision Trees) to an
+    application of Neural Network trained utilizing a selection of topological features discriminating the various
+    exepected
+    theoretical signal signatures from the Standard Model background, with the resulting limits on novel interaction
+    being
+    far more constrained in the latter case. Limits on the New Physics (EFT) model parameters were extracted using the
+    profile-likelihood ratio test statistic at a 68% and 95% C.L., being close to $0$ as no significant deviations in
+    terms of previously unobserved interactions have been found.
+</p>
 
 <div class="mx-5 grid grid-cols-2 gap-10">
     <div class="m-auto text-center"><img src="{{site.baseurl}}/assets/img/PhD-c_scan_M1M0.png"
