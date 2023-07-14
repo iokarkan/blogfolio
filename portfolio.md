@@ -21,14 +21,14 @@ permalink: portfolio
             <a class="cboxElement" href="{{site.baseurl}}/assets/img/journal-hub/home.png"><img class="rounded-lg"
                     src="{{site.baseurl}}/assets/img/journal-hub/home.png" alt="Home page of the Journal Hub alpha.">
             </a>
-            <figcaption class="text-center"><b>Home page of the Journal Hub alpha.</b></figcaption>
+            <figcaption class="text-center"><b>Home page of the Journal Hub alpha</b></figcaption>
         </div>
         <div class="w-xs m-auto rounded-full">
             <a class="cboxElement" href="{{site.baseurl}}/assets/img/journal-hub/showcase.png">
                 <img class="rounded-lg" src="{{site.baseurl}}/assets/img/journal-hub/showcase.png"
                     alt="An article showcase in Journal Hub alpha.">
             </a>
-            <figcaption class="text-center"><b>An article showcase in Journal Hub alpha.</b></figcaption>
+            <figcaption class="text-center"><b>An article showcase in Journal Hub alpha</b></figcaption>
         </div>
     </div>
 
