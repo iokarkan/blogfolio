@@ -9,7 +9,7 @@ node_modules/
 
 assets/scripts/
 
-./_posts/archive/
-./_posts/src/
+_posts/archive/
+_posts/src/
 
 _config.yml
