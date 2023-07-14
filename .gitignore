@@ -12,4 +12,4 @@ assets/scripts/
 _posts/archive/
 _posts/src/
 
-_config.yml
+./_config.yml
