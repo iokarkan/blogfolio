@@ -11,7 +11,7 @@ permalink: portfolio
 ### Web app
 - Coming Soon teaser: [www.journal-hub.org](https://www.journal-hub.org)
 
-<div class="flex flex-col gap-1">
+<div class="flex flex-col gap-1 text-justify">
     <p>Journal Hub is a novel prototype literature discussion platform, focused on publicly and privately curated
         collections
         of research publications.</p>
@@ -44,10 +44,11 @@ permalink: portfolio
 
 
 ### ⚙️ Alpha development
-
+<p class="text-justify">
 Journal Hub is in its alpha development stage, however its core features have already been implemented. Along with a few
 close-circle volunteers, we are currently rolling out environments for interested groups, and we welcome all your
 feedback and ideas!
+</p>
 
 <div class="p-2 text-sm text-indigo-800 font-mono m-auto rounded-2xl bg-slate-200 text-center w-fit">
     If you're interested in contributing or using Journal Hub, please send me an email:
