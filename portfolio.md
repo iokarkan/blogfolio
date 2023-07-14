@@ -4,6 +4,56 @@ title: My work
 permalink: portfolio
 ---
 
+
+## The Journal Hub
+----
+
+### Web app
+- Coming Soon teaser: [www.journal-hub.org](https://www.journal-hub.org)
+
+<div class="flex flex-col gap-1">
+    <p>Journal Hub is a novel prototype literature discussion platform, focused on publicly and privately curated
+        collections
+        of research publications.</p>
+
+    <div class="flex flex-col md:flex-row gap-4">
+        <div class="w-xl m-auto rounded-full">
+            <a class="cboxElement" href="{{site.baseurl}}/assets/img/journal-hub/home.png"><img class="rounded-lg"
+                    src="{{site.baseurl}}/assets/img/journal-hub/home.png" alt="Home page of the Journal Hub alpha.">
+            </a>
+            <figcaption class="text-center"><b>Home page of the Journal Hub alpha.</b></figcaption>
+        </div>
+        <div class="w-xs m-auto rounded-full">
+            <a class="cboxElement" href="{{site.baseurl}}/assets/img/journal-hub/showcase.png">
+                <img class="rounded-lg" src="{{site.baseurl}}/assets/img/journal-hub/showcase.png"
+                    alt="An article showcase in Journal Hub alpha.">
+            </a>
+            <figcaption class="text-center"><b>An article showcase in Journal Hub alpha.</b></figcaption>
+        </div>
+    </div>
+
+    <p>As a platform, the vision of Journal Hub is to be an open space for discussing scientific research, and be a tool
+        for
+        research groups to collaborate on their own scientific scopes.</p>
+</div>
+
+### Tech Stack
+- **Backend:** Flask, PostgreSQL, ChromaDB
+- **Frontend:** TailwindCSS, DaisyUI, jQuery, MathJax
+- **Deployment:** Docker, Cloudflare, nginx
+
+
+### ⚙️ Alpha development
+
+Journal Hub is in its alpha development stage, however its core features have already been implemented. Along with a few
+close-circle volunteers, we are currently rolling out environments for interested groups, and we welcome all your
+feedback and ideas!
+
+<div class="p-2 text-sm text-indigo-800 font-mono m-auto rounded-2xl bg-slate-200 text-center w-fit">
+    If you're interested in contributing or using Journal Hub, please send me an email:
+    <a href="mailto:journal.hub.team@gmail.com">journal.hub.team@gmail.com</a>
+</div>
+
 ## AI Development
 ----
 ### Large Language Model Applications
@@ -44,7 +94,8 @@ permalink: portfolio
 </div>
 <div class="m-auto rounded-2xl bg-slate-200 text-center w-fit">
     <p class="p-2 text-sm text-indigo-800 font-mono">Check out this blog post: <a
-            href="https://iokarkan.github.io/2023/04/07/stable-diffusion-control.html">Controlling generated images with Stable Diffusion</a></p>
+            href="https://iokarkan.github.io/2023/04/07/stable-diffusion-control.html">Controlling generated images with
+            Stable Diffusion</a></p>
 </div>
 
 ## Research
@@ -101,5 +152,5 @@ terms of previously unobserved interactions have been found.
 </div>
 
 <script>
-    jQuery('a.iframe').colorbox({iframe:true, height:"700px", width:"80vw%"});
+    jQuery('a.iframe').colorbox({ iframe: true, height: "700px", width: "80vw%" });
 </script>

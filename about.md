@@ -11,30 +11,40 @@ permalink: about
     <!-- Modal Functionality, use: -->
     <!-- https://tailwindui.com/components/application-ui/overlays/modals -->
 
-    <div class="m-auto">
-        <p>My name is Ioannis (John) Karkanias, a physicist with a passion for Machine Learning and computational
-            statistics.
+    <div class="m-auto text-justify">
+
+        <p>My name is Ioannis (John) Karkanias, a physicist with a passion for Machine Learning, Computational
+            Statistics and Web Development. </p>
+
         <div class="m-auto rounded-2xl bg-slate-200  text-center w-fit">
             <!-- <p class="pt-2 text-center font-bold text-lg text-slate-600 font-mono">Note</p> -->
             <!-- <p class="p-2 text-sm text-white font-mono">
-                You can see my CV <a class="text-blue-600 dark:text-slate-100 hover:underline"
-                    href="{{site.baseurl}}/assets/pdf/CV_IoannisKarkanias.pdf">here</a>!</p> -->
+                    You can see my CV <a class="text-blue-600 dark:text-slate-100 hover:underline"
+                        href="{{site.baseurl}}/assets/pdf/CV_IoannisKarkanias.pdf">here</a>!</p> -->
             <p class="p-2 text-sm text-indigo-800 font-mono">
                 You can see my <a href="https://iokarkan.github.io/2023/02/19/customCVmatplotlib.html">funky</a> CV
                 <!-- <button type='button' id="modal-open" class="text-blue-600 dark:text-slate-100 underline">
-                    here
-                </button>! -->
-                <a class="iframe cboxElement" href="{{site.baseurl}}/assets/pdf/CV_IoannisKarkanias.pdf" title="CV - Ioannis Karkanias (2023)">here</a>
-                <br/>
-                <br/>
-                or a more boring version <a class="iframe cboxElement" href="{{site.baseurl}}/assets/pdf/CV_Ioannis_Karkanias.pdf" title="CV - Ioannis Karkanias (2023)">here</a>!
+                        here
+                    </button>! -->
+                <a class="iframe cboxElement" href="{{site.baseurl}}/assets/pdf/CV_IoannisKarkanias.pdf"
+                    title="CV - Ioannis Karkanias (2023)">here</a>
+                <br />
+                <br />
+                or a more boring version <a class="iframe cboxElement"
+                    href="{{site.baseurl}}/assets/pdf/CV_Ioannis_Karkanias.pdf"
+                    title="CV - Ioannis Karkanias (2023)">here</a>!
             </p>
-
-
         </div>
 
-        My current interests
-        revolve around open-source Generative Transformer-based Deep Learning models.</p>
+        <p>
+            I am the creator and developer for the <a href="{% link portfolio.md %}">Journal Hub</a> project, an open literature discussion platform.
+        </p>
+
+
+        <p>
+            My current ML interests
+            revolve around open-source Generative Transformer-based Deep Learning models.
+        </p>
     </div>
 
     <div class="m-auto md:w-2/3 w-1/2">
@@ -52,7 +62,7 @@ permalink: about
 </div>
 
 <script>
-    jQuery('a.iframe').colorbox({iframe:true, height:"700px", width:"80vw%"});
+    jQuery('a.iframe').colorbox({ iframe: true, height: "700px", width: "80vw%" });
 
 </script>
 

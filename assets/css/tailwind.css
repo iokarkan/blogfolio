@@ -796,16 +796,6 @@ video {
   height: 1rem;
 }
 
-
-.h-auto {
-  height: auto;
-}
-
-.h-full {
-  height: 100%;
-}
-
-
 .min-h-full {
   min-height: 100%;
 }
@@ -835,11 +825,11 @@ video {
   width: fit-content;
 }
 
-.w-full {
+.w-\[100\%\] {
   width: 100%;
 }
 
-.w-\[100\%\] {
+.w-full {
   width: 100%;
 }
 
@@ -880,19 +870,6 @@ video {
   width: 90%;
 }
 
-
-.w-\[50\%\] {
-  width: 50%;
-}
-
-.w-\[60\%\] {
-  width: 60%;
-}
-
-.w-2\/4 {
-  width: 50%;
-}
-
 .max-w-max {
   max-width: -moz-max-content;
   max-width: max-content;
@@ -916,22 +893,6 @@ video {
 
 .max-w-none {
   max-width: none;
-}
-
-.max-w-\[50\%\] {
-  max-width: 50%;
-}
-
-.max-w-\[20\%\] {
-  max-width: 20%;
-}
-
-.max-w-\[10\%\] {
-  max-width: 10%;
-}
-
-.max-w-\[35\%\] {
-  max-width: 35%;
 }
 
 .flex-shrink {
@@ -1100,6 +1061,14 @@ video {
 
 .gap-10 {
   gap: 2.5rem;
+}
+
+.gap-1 {
+  gap: 0.25rem;
+}
+
+.gap-4 {
+  gap: 1rem;
 }
 
 .gap-y-5 {
@@ -1423,18 +1392,6 @@ video {
   padding: 1.25rem;
 }
 
-.p-8 {
-  padding: 2rem;
-}
-
-.p-12 {
-  padding: 3rem;
-}
-
-.p-14 {
-  padding: 3.5rem;
-}
-
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -1448,11 +1405,6 @@ video {
 .py-2 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-}
-
-.py-8 {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
 }
 
 .py-4 {
@@ -1551,6 +1503,10 @@ video {
   text-align: center;
 }
 
+.text-justify {
+  text-align: justify;
+}
+
 .text-start {
   text-align: start;
 }
@@ -1617,22 +1573,6 @@ video {
 
 .text-6xl {
   font-size: 3.75rem;
-  line-height: 1;
-}
-
-
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
-}
-
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
-.text-8xl {
-  font-size: 6rem;
   line-height: 1;
 }
 
@@ -1789,18 +1729,6 @@ video {
 
 .\!no-underline {
   text-decoration-line: none !important;
-}
-
-.opacity-\[50\%\] {
-  opacity: 50%;
-}
-
-.opacity-50 {
-  opacity: 0.5;
-}
-
-.opacity-25 {
-  opacity: 0.25;
 }
 
 .mix-blend-plus-lighter {
@@ -2654,11 +2582,6 @@ video {
     width: 50%;
   }
 
-
-  .sm\:w-\[40\%\] {
-    width: 40%;
-  }
-
   .sm\:scale-90 {
     --tw-scale-x: .9;
     --tw-scale-y: .9;
@@ -2801,6 +2724,10 @@ video {
 
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .md\:flex-row {
+    flex-direction: row;
   }
 
   .md\:place-items-center {
