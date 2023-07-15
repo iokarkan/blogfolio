@@ -5,44 +5,42 @@ permalink: portfolio
 ---
 
 
-## Project: Journal Hub
+## Project: [Journal Hub](https://www.journal-hub.org)
 ----
-
-### Web app
-- Coming Soon teaser: [www.journal-hub.org](https://www.journal-hub.org)
-
-<div class="flex flex-col gap-1 text-justify">
-    <p>Journal Hub is a novel prototype literature discussion platform, focused on publicly and privately curated
-        collections
-        of research publications.</p>
-
-    <div class="flex flex-col md:flex-row gap-4">
-        <div class="w-xl m-auto rounded-full">
-            <a class="cboxElement" href="{{site.baseurl}}/assets/img/journal-hub/home.png"><img class="rounded-lg"
-                    src="{{site.baseurl}}/assets/img/journal-hub/home.png" alt="Home page of the Journal Hub alpha.">
-            </a>
-            <figcaption class="text-center"><b>Home page of the Journal Hub alpha</b></figcaption>
-        </div>
-        <div class="w-xs m-auto rounded-full">
-            <a class="cboxElement" href="{{site.baseurl}}/assets/img/journal-hub/showcase.png">
-                <img class="rounded-lg" src="{{site.baseurl}}/assets/img/journal-hub/showcase.png"
-                    alt="An article showcase in Journal Hub alpha.">
-            </a>
-            <figcaption class="text-center"><b>An article showcase in Journal Hub alpha</b></figcaption>
-        </div>
-    </div>
-
-    <p>As a platform, the vision of Journal Hub is to be an open space for discussing scientific research, and be a tool
-        for
-        research groups to collaborate on their own scientific scopes.</p>
-</div>
-
-### Tech Stack
+#### Tech Stack
 - **Backend:** Flask, PostgreSQL, ChromaDB
 - **Frontend:** TailwindCSS, DaisyUI, jQuery, MathJax
 - **Deployment:** Docker, Cloudflare, nginx
 
 
+#### Summary
+
+<div class="flex flex-col gap-1 text-justify">
+    <p>Journal Hub is a prototype online literature discussion platform, focused on publicly and privately curated
+        collections
+        of research publications.</p>
+        
+        <div class="flex flex-col md:flex-row gap-4">
+            <div class="w-xl m-auto rounded-full">
+                <a class="cboxElement" href="{{site.baseurl}}/assets/img/journal-hub/home.png"><img class="rounded-lg"
+                    src="{{site.baseurl}}/assets/img/journal-hub/home.png" alt="Home page of the Journal Hub alpha.">
+                </a>
+                <figcaption class="text-center"><b>Home page of the Journal Hub alpha</b></figcaption>
+            </div>
+            <div class="w-xs m-auto rounded-full">
+                <a class="cboxElement" href="{{site.baseurl}}/assets/img/journal-hub/showcase.png">
+                    <img class="rounded-lg" src="{{site.baseurl}}/assets/img/journal-hub/showcase.png"
+                    alt="An article showcase in Journal Hub alpha.">
+                </a>
+                <figcaption class="text-center"><b>An article showcase in Journal Hub alpha</b></figcaption>
+            </div>
+        </div>
+        
+        <p>As a platform, the vision of Journal Hub is to be an open space for discussing scientific research, and be a tool
+            for
+            research groups to collaborate on their own scientific scopes.</p>
+        </div>
+        
 ### ⚙️ Alpha development
 <p class="text-justify">
 Journal Hub is in its alpha development stage, however its core features have already been implemented. Along with a few
