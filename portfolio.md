@@ -5,7 +5,7 @@ permalink: portfolio
 ---
 
 
-## The Journal Hub
+## Project: Journal Hub
 ----
 
 ### Web app
