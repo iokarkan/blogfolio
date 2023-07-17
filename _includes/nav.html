@@ -44,7 +44,7 @@
                         {% if page.url != "/" %} <!-- don't show Home in menu for Homepage -->
                         <a class="font-mono mx-auto " href="{{site.baseurl}}/">
                             <button
-                                class="uppercase text-gray-500 hover:text-gray-900 sm:w-36 w-18 text-xs sm:text-sm bg-white hover:bg-gray-100 px-3 py-1 sm:py-2 border border-gray-400 rounded shadow">
+                                class="uppercase text-gray-500 hover:text-gray-900 sm:w-36 w-18 text-xs sm:text-sm bg-white hover:bg-gray-100 px-2 py-1 sm:py-2 border border-gray-400 rounded shadow">
                                 Home
                             </button>
                         </a>
@@ -57,7 +57,7 @@
                         {% if page.permalink != {{link.permalink}} %} <!-- don't show current page in menu -->
                         <a class="font-mono   lg:py-1 mx-auto " href="{{site.baseurl}}/{{link.permalink}}">
                             <button
-                                class="text-gray-500 hover:text-gray-900 uppercase sm:w-36 w-18 text-xs sm:text-sm bg-white hover:bg-gray-100 px-3 py-1 sm:py-2 border border-gray-400 rounded shadow">
+                                class="text-gray-500 hover:text-gray-900 uppercase sm:w-36 w-18 text-xs sm:text-sm bg-white hover:bg-gray-100 px-2 py-1 sm:py-2 border border-gray-400 rounded shadow">
                                 {{link.text}}
                             </button>
                         </a>
