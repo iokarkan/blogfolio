@@ -36,7 +36,7 @@ While trying to implement such a search functionality during my [Journal Hub]({%
 
 ## Embedding models
 
-I jump-started with ChromaDB and its default embeddings model, which fortunately is quite slim: the 80 MB `all-MiniLM-L6-v2` model from the [SentenceTransformers](https://www.sbert.net/) framework, available also in the HuggingFace Hub. It can embed 256-character sequences into a 384-dimensional space, and is advertised as suitable for many use cases and for basic embedding proximity/similarity searches.
+I jump-started with ChromaDB and its default embeddings model, which fortunately is quite slim: the 80 MB `all-MiniLM-L6-v2` model from the [SentenceTransformers](https://www.sbert.net/) framework, available also in the HuggingFace Hub. It can embed 256-token sequences into a 384-dimensional space (each token is thus a 384-dimensional vector), and is advertised as suitable for many use cases and for basic embedding proximity/similarity searches.
 
 Text embeddings turn words into numbers in a high-dimensional space (in this case, 384 dimensions). The dimensions can be chosen either by hand, or by creating a dictionary of unique word tokens in a dataset, or rather by training a fixed-size Embedding layer in a Neural Network. During this training, the network learns to assign similar vectors to words that have similar meanings or are used in similar contexts. The resulting parameterized embedding layer usually captures far more information about words and language than a simple one-to-one dictionary mapping.
 
