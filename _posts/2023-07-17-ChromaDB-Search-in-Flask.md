@@ -25,6 +25,10 @@ icon: "fas fa-hammer"
   </svg>
 </div>
 
+> ### Update 20/07/2023
+> This article is referring to ChromaDB version 0.3.26. There have been breaking changes in the API with respect to this article and the latest version 0.4.2. Consequently, a couple of changes are warranted:
+> - Instead of `chromadb.Client`, one could now use `chromadb.PersistentClient`. There's a `path` argument for persistence, and `chromadbsettings` is not needed. One should also use the `settings` argument with `chromadbSettings(allow_reset = True)`, so that the  `app.chromadb.reset()` used by the implemented `flask reindex` CLI in `app.py` works.
+> - This post's `chromadb.persist()` should be removed as it's not supported anymore.
 
 ## Implementing search in Flask
 
