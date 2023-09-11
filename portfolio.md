@@ -10,7 +10,7 @@ permalink: portfolio
 #### Tech Stack
 - **Backend:** Flask, PostgreSQL, ChromaDB
 - **Frontend:** TailwindCSS, DaisyUI, jQuery, MathJax
-- **Deployment:** Docker, Cloudflare, nginx
+- **Deployment:** AWS, Docker, Cloudflare, nginx
 
 
 #### Summary
