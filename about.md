@@ -20,7 +20,7 @@ permalink: about
             <!-- <p class="pt-2 text-center font-bold text-lg text-slate-600 font-mono">Note</p> -->
             <!-- <p class="p-2 text-sm text-white font-mono">
                     You can see my CV <a class="text-blue-600 dark:text-slate-100 hover:underline"
-                        href="{{site.baseurl}}/assets/pdf/CV_IoannisKarkanias.pdf">here</a>!</p> -->
+                        href="{{site.baseurl}}/assets/pdf/CV__Ioannis_Karkanias.pdf">here</a>!</p> -->
             <p class="p-2 text-sm text-indigo-800 font-mono">
                 You can see my CV <a class="iframe cboxElement"
                 href="{{site.baseurl}}/assets/pdf/CV_Ioannis_Karkanias.pdf"
