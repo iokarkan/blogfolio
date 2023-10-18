@@ -3,8 +3,8 @@ baseurl: "/" # the name of your github repo, if you want to do local changes set
 url: "https://iokarkan.github.io" # the url of your github pages
 
 # site information used in page title, meta data etc.
-title: "iokarkan's Blogfolio"
-description: Blog-Portfolio | Github Pages-Jekyll-TailwindCSS
+title: "iokarkan.github.io"
+description: Blog & Portfolio
 
 # color theme for links
 theme-color: indigo # indigo|yellow|pink|green|stone|
