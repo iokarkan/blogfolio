@@ -3,7 +3,6 @@ layout: post-toc
 title: "The state of Research Platforms in 2023: A review"
 tags: research platform publications journal-hub
 icon: "fas fa-newspaper"
-description: "A brief summary of the modern researcher's needs"
 ---
 
 <h2 id="A brief summary of the modern researcher's needs" class="scroll-mt-[150px]">A brief summary of the modern researcher's needs</h2>
