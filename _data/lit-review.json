@@ -1,0 +1,274 @@
+{
+    "social": {
+        "title": "Social Media",
+        "names": [
+            "Reddit",
+            "X (ex-Twitter)",
+            "LinkedIn",
+            "Facebook",
+            "etc."
+        ],
+        "ups": [
+            "Established public and private communities",
+            "Ease of use",
+            "Advanced comment systems"
+        ],
+        "downs": [
+            "Development is not research-scoped",
+            "Distractive platforms",
+            "Non-disclosed recommendation algorithms",
+            "For-profit promoted content",
+            "Restricted API usage"
+        ],
+        "badges": [
+            "Discovery",
+            "Collaboration"
+        ]
+    },
+    "messaging": {
+        "title": "Messaging Apps",
+        "names": [
+            "Telegram",
+            "Discord",
+            "Whatsapp",
+            "Viber",
+            "etc."
+        ],
+        "ups": [
+            "Instant content sharing (also full-text pdfs)",
+            "Easy community creation",
+            "Widely used"
+        ],
+        "downs": [
+            "Not focused on research",
+            "Research discussion shadowed by other messaging use cases",
+            "Limited support for asynchronous post-like communication (e.g. pins)",
+            "Limited support for publication discovery with bots"
+        ],
+        "badges": [
+            "Discovery",
+            "Collaboration"
+        ]
+    },
+    "search": {
+        "title": "Metadata search engines",
+        "names": [
+            "Google Scholar",
+            "PubMed",
+            "Scopus",
+            "IEEE",
+            "arXiv",
+            "medRxiv",
+            "CrossRef",
+            "etc."
+        ],
+        "ups": [
+            "Full-text hosting of pre-prints and publications (open-access and pay-walled",
+            "Include coverage of pre-prints, journals, books",
+            "Citation helper tools",
+            "Free-to-use APIs (with the notable exception of Google Scholar and perhaps Scopus)"
+        ],
+        "downs": [
+            "No user-level Collaboration and discussion of literature",
+            "Limited (if any) support for sharing user-created collections"
+        ],
+        "badges": [
+            "Discovery"
+        ]
+    },
+    "standalone": [
+        {
+            "name": [
+                "LitMaps"
+            ],
+            "url": "https://www.litmaps.com/",
+            "ups": [
+                "Create visualization graphs for publications, starting from individual papers as seeds",
+                "Supports DOI searching, integrated with PubMed and arXiv",
+                "Google and ORCiD sign-in support"
+            ],
+            "downs": [
+                "Limited free tier, with paid tiers to unlock full capabilities",
+                "Could not find a free feature to create graph maps alongside a team, or to facilitate discussion on publications"
+            ],
+            "badges": [
+                "Discovery"
+            ]
+        },
+        {
+            "name": [
+                "Semantic Scholar"
+            ],
+            "url": "https://semanticscholar.org",
+            "ups": [
+                "Generalized scientific focus",
+                "Custom recommended feed and email notifications, according also to user-selected papers",
+                "AI-enhanced PDF reader with user annotations",
+                "AI-generated paper TL;DR summaries",
+                "Ability to create public collections of papers"
+            ],
+            "downs": [
+                "No implementation of private group collections",
+                "No public/private communities with separate article curations"
+            ],
+            "badges": [
+                "Discovery"
+            ]
+        },
+        {
+            "name": [
+                "Papers With Code"
+            ],
+            "url": "https://paperswithcode.com/",
+            "ups": [
+                "Established and focused ML/AI research community",
+                "Sophisticated curation of papers by the site's team and recommendation capabilities",
+                "Dataset hosting",
+                "API support",
+                "Curated learning material",
+                "Research supporting initiatives (e.g. ML Reproducibility Challenge 2022"
+            ],
+            "downs": [
+                "No general research focus apart from ML/AI",
+                "User-level communities not implemented"
+            ],
+            "badges": [
+                "Discovery"
+            ]
+        },
+        {
+            "name": [
+                "Connected Papers"
+            ],
+            "url": "https://www.connectedpapers.com/",
+            "ups": [
+                "Graph visualisation capabilities of related papers",
+                "Integration with arXiv, PubMed, SemanticScholar",
+                "Bibliography creation tool",
+                "Creation of personal curations of graphs"
+            ],
+            "downs": [
+                "Free tier has limited capabilities",
+                "No support for in-app community creation",
+                "No discussion system implemented"
+            ],
+            "badges": [
+                "Discovery"
+            ]
+        },
+        {
+            "name": [
+                "Dimensions"
+            ],
+            "url": "https://app.dimensions.ai/discover/publication",
+            "ups": [
+                "AI-enhanced graph visualisation of papers based on metadata and statistics on paper citations",
+                "Built-in analytics tools",
+                "Includes categories for datasets, grants, patents, clinical trials and policy documents",
+                "Part of a larger platform that supports niche use cases such as research security or reviewer finder",
+                "Supports connection with ORCiD"
+            ],
+            "downs": [
+                "Document collections facilitated with external apps in the Dimensions suite",
+                "No in-app discussion system"
+            ],
+            "badges": [
+                "Discovery"
+            ]
+        },
+        {
+            "name": [
+                "AI Papers"
+            ],
+            "url": "https://ai.papers.bar/",
+            "ups": [
+                "Multiple views (feed, public lists, curated conference lists etc.",
+                "Public paper lists",
+                "Twitter integration",
+                "Integrations with arXiv and PapersWithCode",
+                "iPad/iPhone app"
+            ],
+            "downs": [
+                "Seemingly not active at the moment of writing",
+                "Focused on ML/AI research",
+                "No native post/comment system implemented, relying solely on Twitter"
+            ],
+            "badges": [
+                "Discovery",
+                "Collaboration"
+            ]
+        },
+        {
+            "name": [
+                "Research Rabbit"
+            ],
+            "url": "https://www.researchrabbit.ai/",
+            "ups": [
+                "Integrated searching via PubMed or Semantic Scholar",
+                "Graph visualisation of associated papers and authors",
+                "Personalized algorithm for recommendation and alerts of earlier, similar and new work",
+                "Private and public collections of papers where members can either add papers or have read-only access",
+                "Support of Zotero AI research assistant",
+                "Supports free services for everyone"
+            ],
+            "downs": [
+                "Minimal comment discussion system",
+                "No Google/LinkedIn/ORCiD sign-in"
+            ],
+            "badges": [
+                "Discovery",
+                "Collaboration"
+            ]
+        },
+        {
+            "name": [
+                "PubPeer"
+            ],
+            "url": "",
+            "ups": ["Broad research focus, supports DOI, arXiv and PubMed IDs searching", "Anyone can start a public asynchronous comment-based discussion on a paper (supports images and code)"],
+            "downs": ["Mostly comments from unreachable anonymous accounts", "No public/private communities with separate article curations"],
+            "badges": [
+                "Discovery",
+                "Collaboration"
+            ]
+        },
+        {
+            "name": [
+                "JournalClub.net"
+            ],
+            "url": "https://journalclub.net/",
+            "ups": [
+                "Publication discussion, review and conferencing event scheduling targeted to medical professionals",
+                "Built-in streaming capabilities for webinars and Q&A sessions",
+                "Part of a larget platform designed for medical professionals"
+            ],
+            "downs": [
+                "Focused on the medical research and clinical field only",
+                "Doesn't seem to facilitate exploration of individual research papers, rather only journal club group activities"
+            ],
+            "badges": [
+                "Collaboration"
+            ]
+        },
+        {
+            "name": [
+                "HuggingFace Daily Papers"
+            ],
+            "url": "https://huggingface.co/papers",
+            "ups": [
+                "Daily picks relating to AI/ML papers (mostly pre-prints from arXiv)",
+                "User-level discussion in-app comment system for every paper",
+                "Popularity of papers ranked based on user likes"
+            ],
+            "downs": [
+                "Curations done by a single person, no curations by the community",
+                "No public/private groups",
+                "No broad focus to all scientific fields, only ML/AI"
+            ],
+            "badges": [
+                "Discovery",
+                "Collaboration"
+            ]
+        }
+    ]
+}
