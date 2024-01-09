@@ -53,50 +53,6 @@ feedback and ideas!
     <a href="mailto:journal.hub.team@gmail.com">journal.hub.team@gmail.com</a>
 </div>
 
-## AI Development
-----
-### Large Language Model Applications
-#### Models and Libraries
-- HuggingFace transformers, pipelines
-- gradio
-- langchain
-- [llama.cpp](https://github.com/ggerganov/llama.cpp) using Stanford's `alpaca` and Nomic AI's `GPT4All`
-<div class="m-auto rounded-2xl bg-slate-200 text-center w-fit">
-    <p class="p-2 text-sm text-indigo-800 font-mono">Demo of a <a
-            href="https://huggingface.co/spaces/ioanniskarkanias/chatbot-with-sources">Chatbot
-            with Sources</a></p>
-</div>
-
-### Generative text-to-image and image-to-image
-#### Models and Libraries
-- Stable Diffusion
-- [InvokeAI](https://github.com/invoke-ai/InvokeAI)
-- [automatic1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
-
-<div class="flex sm:flex-row sm:gap-5 sm:p-0 mx-6">
-    <div class="sm:w-[30%] w-[30%] m-auto rounded-full">
-        <img class="rounded-lg"
-            src="{{site.baseurl}}/assets/img/vader-stable-diffusion/depositphotos_56832909-stock-photo-muscular-man-holding-ancient-sword.jpg">
-    </div>
-    <div class="mx-2 my-auto rounded-full">
-        <span>⟶</span>
-    </div>
-    <div class="sm:w-[25%] w-[25%] m-auto rounded-full">
-        <img class="rounded-lg" src="{{site.baseurl}}/assets/img/vader-stable-diffusion/pose.png">
-    </div>
-    <div class="mx-2 my-auto rounded-full">
-        <span>⟶</span>
-    </div>
-    <div class="sm:w-[25%] w-[25%] m-auto rounded-full">
-        <img class="rounded-lg" src="{{site.baseurl}}/assets/img/vader-stable-diffusion/vader-resolution-buttons.png">
-    </div>
-</div>
-<div class="m-auto rounded-2xl bg-slate-200 text-center w-fit">
-    <p class="p-2 text-sm text-indigo-800 font-mono">Check out this blog post: <a
-            href="https://iokarkan.github.io/2023/04/07/stable-diffusion-control.html">Controlling generated images with
-            Stable Diffusion</a></p>
-</div>
-
 ## Research
 ----
 ### Applying multivariate methods in Experimental Particle Physics Analysis
