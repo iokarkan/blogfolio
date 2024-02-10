@@ -11,7 +11,7 @@ permalink: about
     <!-- Modal Functionality, use: -->
     <!-- https://tailwindui.com/components/application-ui/overlays/modals -->
 
-    <div class="m-auto text-justify">
+    <div class="m-auto col-span-2 text-justify">
 
         <p>My name is Ioannis (John) Karkanias, a physicist with a passion for Machine Learning, Computational
             Statistics and Web Development. </p>
@@ -35,11 +35,11 @@ permalink: about
 
         <p>
             My current ML interests
-            revolve around open-source Generative Transformer-based Deep Learning models.
+            revolve around open-source Computer Vision and applications of Large Language Models (LLMs).
         </p>
     </div>
 
-    <div class="m-auto md:w-2/3 w-1/2">
+    <!-- <div class="m-auto md:w-2/3 w-1/2">
         <div>
             <img class="" src="{{site.baseurl}}/assets/img/portrait_bus_OCR.jpg">
         </div>
@@ -49,7 +49,7 @@ permalink: about
                 <a href="https://github.com/dmlc/gluon-cv">GluonCV</a>)
             </figcaption>
         </div>
-    </div>
+    </div> -->
 
 </div>
 

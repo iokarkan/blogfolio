@@ -1,5 +1,5 @@
 # change the followings to match your Github username and repo name
-baseurl: "/" # the name of your github repo, if you want to do local changes set this to "/tailpages" (url below is then irrelevant)
+baseurl: "/tailpages" # the name of your github repo, if you want to do local changes set this to "/tailpages" (url below is then irrelevant)
 url: "https://iokarkan.github.io" # the url of your github pages
 
 # site information used in page title, meta data etc.
